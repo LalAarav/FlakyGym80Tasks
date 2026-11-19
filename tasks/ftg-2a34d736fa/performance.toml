@@ -1,0 +1,51 @@
+# performance.toml — model rollout statistics for one task.
+# Lives at tasks/<instance_id>/performance.toml alongside task.toml.
+# Generated from CI rollout results; not hand-edited.
+#
+# Conventions:
+#   - One [[rollouts]] table per task: "hy4-preview" and "sol" (gpt-5.6-sol).
+#   - rollout_n counts VALID rollouts only. System errors (provider 5xx, rate limits,
+#     agent startup crashes) and confirmed reward-hacked runs are excluded and reported
+#     in excluded_system_errors / excluded_reward_hacked.
+#   - reward_mean is the mean of reward.json["reward"] over valid rollouts.
+#   - pass_rate is a reference statistic (equals reward_mean for binary-reward tasks).
+#   - median_assistant_turns is the median count of role=assistant messages over valid rollouts.
+#   - Rollout directories: trajectory/<instance_id>/<role>/rollout_<harness>_<n>/
+#     Hint-conditioned reruns (trajectory/<instance_id>/<role>/rollout_<harness>_hint_<n>/)
+#     are never counted here.
+
+instance_id = "ftg-2a34d736fa"
+reward_kind = "binary"
+generated_from = "local-export"
+generated_at = "2026-10-30"
+task_tree_hash = "7bb9aa07cafd61074308f9a86be366944042e73828e9b1b6261e83e69aca30f0"
+
+[[rollouts]]
+role = "hy4-preview"
+model = "tencent/hy4-preview"
+mode = "think"
+harness = "claude_code"
+provider = "openrouter"
+rollout_n = 0
+reward_mean = 0.0
+reward_std = 0.0
+pass_rate = 0.0
+median_assistant_turns = 0
+max_turns_cap = 500
+excluded_system_errors = 0
+excluded_reward_hacked = 0
+
+[[rollouts]]
+role = "sol"
+model = "gpt-5.6-sol"
+mode = "xhigh"
+harness = "codex"
+provider = "openai-flex"
+rollout_n = 0
+reward_mean = 0.0
+reward_std = 0.0
+pass_rate = 0.0
+median_assistant_turns = 0
+max_turns_cap = 300
+excluded_system_errors = 0
+excluded_reward_hacked = 0

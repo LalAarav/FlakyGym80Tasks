@@ -1,0 +1,7508 @@
+[
+  {
+    "rule": "D20",
+    "severity": "REPORT",
+    "message": "category share table present in docs/README.md",
+    "instance_id": ""
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-00536139a2"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-00536139a2"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-00536139a2"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-00536139a2"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-00536139a2"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-00f27c45d6"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-00f27c45d6"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-00f27c45d6"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-00f27c45d6"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-00f27c45d6"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-0143192904"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-0143192904"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-0143192904"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-0143192904"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-0143192904"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-019896aed1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-019896aed1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-019896aed1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-019896aed1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-019896aed1"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-0222d8091f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-0222d8091f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-0222d8091f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-0222d8091f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-0222d8091f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-0300f4a660"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-0300f4a660"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-0300f4a660"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-0300f4a660"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-0300f4a660"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-053a3c5848"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-053a3c5848"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-053a3c5848"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-053a3c5848"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-053a3c5848"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-06936e3950"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-06936e3950"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-06936e3950"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-06936e3950"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-06936e3950"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-08509a7c1d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-08509a7c1d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-08509a7c1d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-08509a7c1d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-08509a7c1d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-0985d40e2f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-0985d40e2f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-0985d40e2f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-0985d40e2f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-0985d40e2f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-0ae335bbaf"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-0ae335bbaf"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-0ae335bbaf"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-0ae335bbaf"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-0ae335bbaf"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-0dcfe5294c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-0dcfe5294c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-0dcfe5294c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-0dcfe5294c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-0dcfe5294c"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-0ebeca8659"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-0ebeca8659"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-0ebeca8659"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-0ebeca8659"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-0ebeca8659"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-0f3f0698fd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-0f3f0698fd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-0f3f0698fd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-0f3f0698fd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-0f3f0698fd"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-10bf8eeee9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-10bf8eeee9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-10bf8eeee9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-10bf8eeee9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-10bf8eeee9"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-10ce08bd02"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-10ce08bd02"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-10ce08bd02"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-10ce08bd02"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-10ce08bd02"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-12c5161e25"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-12c5161e25"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-12c5161e25"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-12c5161e25"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-12c5161e25"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-14fc1f52a1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-14fc1f52a1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-14fc1f52a1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-14fc1f52a1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-14fc1f52a1"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-15705e7120"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-15705e7120"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-15705e7120"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-15705e7120"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-15705e7120"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-161f1eb130"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-161f1eb130"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-161f1eb130"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-161f1eb130"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-161f1eb130"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-16d814398f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-16d814398f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-16d814398f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-16d814398f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-16d814398f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-18f37797c4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-18f37797c4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-18f37797c4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-18f37797c4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-18f37797c4"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-1b156d83a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-1b156d83a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-1b156d83a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-1b156d83a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-1b156d83a8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-1b555371b8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-1b555371b8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-1b555371b8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-1b555371b8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-1b555371b8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-1be7613865"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-1be7613865"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-1be7613865"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-1be7613865"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-1be7613865"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-1cf15406c1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-1cf15406c1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-1cf15406c1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-1cf15406c1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-1cf15406c1"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-1ed0557e53"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-1ed0557e53"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-1ed0557e53"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-1ed0557e53"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-1ed0557e53"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-1f0e8868c2"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-1f0e8868c2"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-1f0e8868c2"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-1f0e8868c2"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-1f0e8868c2"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-1f26ee3794"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-1f26ee3794"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-1f26ee3794"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-1f26ee3794"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-1f26ee3794"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-20a52360b1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-20a52360b1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-20a52360b1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-20a52360b1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-20a52360b1"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2211df8cb8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2211df8cb8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2211df8cb8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2211df8cb8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2211df8cb8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-222abbfa49"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-222abbfa49"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-222abbfa49"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-222abbfa49"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-222abbfa49"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2522fdf592"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2522fdf592"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2522fdf592"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2522fdf592"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2522fdf592"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-257119a4af"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-257119a4af"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-257119a4af"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-257119a4af"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-257119a4af"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-25eba9f267"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-25eba9f267"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-25eba9f267"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-25eba9f267"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-25eba9f267"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-261221c130"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-261221c130"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-261221c130"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-261221c130"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-261221c130"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-27a7c0c18a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-27a7c0c18a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-27a7c0c18a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-27a7c0c18a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-27a7c0c18a"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-288621aacd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-288621aacd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-288621aacd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-288621aacd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-288621aacd"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-29214f1ee5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-29214f1ee5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-29214f1ee5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-29214f1ee5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-29214f1ee5"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2a24e300b6"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2a24e300b6"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2a24e300b6"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2a24e300b6"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2a24e300b6"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2a34d736fa"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2a34d736fa"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2a34d736fa"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2a34d736fa"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2a34d736fa"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2a935af744"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2a935af744"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2a935af744"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2a935af744"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2a935af744"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2b1799a3a9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2b1799a3a9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2b1799a3a9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2b1799a3a9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2b1799a3a9"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2b5d727c0f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2b5d727c0f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2b5d727c0f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2b5d727c0f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2b5d727c0f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2c182b9b87"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2c182b9b87"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2c182b9b87"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2c182b9b87"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2c182b9b87"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2d4049e555"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2d4049e555"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2d4049e555"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2d4049e555"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2d4049e555"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2d794b41a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2d794b41a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2d794b41a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2d794b41a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2d794b41a8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-2ea948385d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-2ea948385d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-2ea948385d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-2ea948385d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-2ea948385d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-309b55badb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-309b55badb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-309b55badb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-309b55badb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-309b55badb"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-31bbc20a10"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-31bbc20a10"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-31bbc20a10"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-31bbc20a10"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-31bbc20a10"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-328eff12b1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-328eff12b1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-328eff12b1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-328eff12b1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-328eff12b1"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-32b7db0961"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-32b7db0961"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-32b7db0961"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-32b7db0961"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-32b7db0961"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-33c6680e6b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-33c6680e6b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-33c6680e6b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-33c6680e6b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-33c6680e6b"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-33cee615a6"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-33cee615a6"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-33cee615a6"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-33cee615a6"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-33cee615a6"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-3639ea646a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-3639ea646a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-3639ea646a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-3639ea646a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-3639ea646a"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-364ebd95a4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-364ebd95a4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-364ebd95a4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-364ebd95a4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-364ebd95a4"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-368fac48cf"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-368fac48cf"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-368fac48cf"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-368fac48cf"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-368fac48cf"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-3712c2d978"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-3712c2d978"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-3712c2d978"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-3712c2d978"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-3712c2d978"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-3b8c8b1f06"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-3b8c8b1f06"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-3b8c8b1f06"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-3b8c8b1f06"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-3b8c8b1f06"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-3ba2678d4f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-3ba2678d4f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-3ba2678d4f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-3ba2678d4f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-3ba2678d4f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-3bac8a49ae"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-3bac8a49ae"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-3bac8a49ae"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-3bac8a49ae"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-3bac8a49ae"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-3c2f113d24"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-3c2f113d24"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-3c2f113d24"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-3c2f113d24"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-3c2f113d24"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-3c9bd1313e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-3c9bd1313e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-3c9bd1313e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-3c9bd1313e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-3c9bd1313e"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-3e0829a01f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-3e0829a01f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-3e0829a01f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-3e0829a01f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-3e0829a01f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-3e1fd055b4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-3e1fd055b4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-3e1fd055b4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-3e1fd055b4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-3e1fd055b4"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-401009a83c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-401009a83c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-401009a83c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-401009a83c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-401009a83c"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-401eccaf3f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-401eccaf3f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-401eccaf3f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-401eccaf3f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-401eccaf3f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4047f41244"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4047f41244"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4047f41244"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4047f41244"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4047f41244"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-405bad23c8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-405bad23c8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-405bad23c8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-405bad23c8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-405bad23c8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4098426688"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4098426688"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4098426688"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4098426688"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4098426688"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-427dbf3f31"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-427dbf3f31"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-427dbf3f31"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-427dbf3f31"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-427dbf3f31"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4282cff61f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4282cff61f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4282cff61f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4282cff61f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4282cff61f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-428b12d501"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-428b12d501"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-428b12d501"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-428b12d501"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-428b12d501"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-42d205c695"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-42d205c695"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-42d205c695"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-42d205c695"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-42d205c695"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-434857fea4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-434857fea4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-434857fea4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-434857fea4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-434857fea4"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-44edbfa325"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-44edbfa325"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-44edbfa325"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-44edbfa325"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-44edbfa325"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-456ff35c31"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-456ff35c31"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-456ff35c31"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-456ff35c31"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-456ff35c31"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-45ceacb294"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-45ceacb294"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-45ceacb294"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-45ceacb294"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-45ceacb294"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-46b88373e7"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-46b88373e7"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-46b88373e7"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-46b88373e7"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-46b88373e7"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-46e5aede5a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-46e5aede5a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-46e5aede5a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-46e5aede5a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-46e5aede5a"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-48c8ad35f5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-48c8ad35f5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-48c8ad35f5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-48c8ad35f5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-48c8ad35f5"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-48f7e315a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-48f7e315a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-48f7e315a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-48f7e315a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-48f7e315a8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-491722fc71"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-491722fc71"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-491722fc71"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-491722fc71"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-491722fc71"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-492b001a2f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-492b001a2f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-492b001a2f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-492b001a2f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-492b001a2f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4a80401544"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4a80401544"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4a80401544"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4a80401544"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4a80401544"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4b8d5b989e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4b8d5b989e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4b8d5b989e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4b8d5b989e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4b8d5b989e"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4cb2be988d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4cb2be988d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4cb2be988d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4cb2be988d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4cb2be988d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4d3ba0468b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4d3ba0468b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4d3ba0468b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4d3ba0468b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4d3ba0468b"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4d69c628d2"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4d69c628d2"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4d69c628d2"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4d69c628d2"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4d69c628d2"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4ec45182e0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4ec45182e0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4ec45182e0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4ec45182e0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4ec45182e0"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4ec4f4858f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4ec4f4858f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4ec4f4858f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4ec4f4858f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4ec4f4858f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4f6d629afe"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4f6d629afe"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4f6d629afe"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4f6d629afe"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4f6d629afe"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-4fd1ef8078"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-4fd1ef8078"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-4fd1ef8078"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-4fd1ef8078"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-4fd1ef8078"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-513948417c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-513948417c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-513948417c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-513948417c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-513948417c"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-514656aba9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-514656aba9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-514656aba9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-514656aba9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-514656aba9"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-52ff1d456b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-52ff1d456b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-52ff1d456b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-52ff1d456b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-52ff1d456b"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-53212db8a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-53212db8a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-53212db8a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-53212db8a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-53212db8a8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-561f7f4af4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-561f7f4af4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-561f7f4af4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-561f7f4af4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-561f7f4af4"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-56c31a4c82"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-56c31a4c82"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-56c31a4c82"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-56c31a4c82"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-56c31a4c82"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-5757db9774"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-5757db9774"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-5757db9774"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-5757db9774"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-5757db9774"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-575b23157a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-575b23157a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-575b23157a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-575b23157a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-575b23157a"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-589f0b71e9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-589f0b71e9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-589f0b71e9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-589f0b71e9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-589f0b71e9"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-58de8036f2"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-58de8036f2"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-58de8036f2"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-58de8036f2"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-58de8036f2"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-594ce6170c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-594ce6170c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-594ce6170c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-594ce6170c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-594ce6170c"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-59c21d69f5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-59c21d69f5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-59c21d69f5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-59c21d69f5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-59c21d69f5"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-5d35fe0808"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-5d35fe0808"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-5d35fe0808"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-5d35fe0808"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-5d35fe0808"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-5e21351d50"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-5e21351d50"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-5e21351d50"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-5e21351d50"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-5e21351d50"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-5eb5310ddb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-5eb5310ddb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-5eb5310ddb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-5eb5310ddb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-5eb5310ddb"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-5f0257dc01"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-5f0257dc01"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-5f0257dc01"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-5f0257dc01"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-5f0257dc01"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-61cda5a98f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-61cda5a98f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-61cda5a98f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-61cda5a98f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-61cda5a98f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-66a2c305c5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-66a2c305c5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-66a2c305c5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-66a2c305c5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-66a2c305c5"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-683030d3b0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-683030d3b0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-683030d3b0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-683030d3b0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-683030d3b0"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-69a01cc4e0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-69a01cc4e0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-69a01cc4e0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-69a01cc4e0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-69a01cc4e0"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-6b1e33c2dc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-6b1e33c2dc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-6b1e33c2dc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-6b1e33c2dc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-6b1e33c2dc"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-6b8d88912d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-6b8d88912d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-6b8d88912d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-6b8d88912d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-6b8d88912d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-6c5b1670cc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-6c5b1670cc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-6c5b1670cc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-6c5b1670cc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-6c5b1670cc"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-6d5f0b81fc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-6d5f0b81fc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-6d5f0b81fc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-6d5f0b81fc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-6d5f0b81fc"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-70545a729c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-70545a729c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-70545a729c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-70545a729c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-70545a729c"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-726ed9e120"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-726ed9e120"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-726ed9e120"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-726ed9e120"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-726ed9e120"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-72cf8e9b7d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-72cf8e9b7d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-72cf8e9b7d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-72cf8e9b7d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-72cf8e9b7d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-73b7f371ab"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-73b7f371ab"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-73b7f371ab"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-73b7f371ab"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-73b7f371ab"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-7417533f3c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-7417533f3c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-7417533f3c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-7417533f3c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-7417533f3c"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-743d3dd6db"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-743d3dd6db"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-743d3dd6db"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-743d3dd6db"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-743d3dd6db"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-75f777b21f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-75f777b21f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-75f777b21f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-75f777b21f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-75f777b21f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-79edc8a7c6"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-79edc8a7c6"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-79edc8a7c6"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-79edc8a7c6"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-79edc8a7c6"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-7a66b4dc05"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-7a66b4dc05"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-7a66b4dc05"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-7a66b4dc05"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-7a66b4dc05"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-7a8febee5d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-7a8febee5d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-7a8febee5d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-7a8febee5d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-7a8febee5d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-7b5e3e0760"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-7b5e3e0760"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-7b5e3e0760"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-7b5e3e0760"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-7b5e3e0760"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-7bfce25a6c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-7bfce25a6c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-7bfce25a6c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-7bfce25a6c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-7bfce25a6c"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-7c01bee108"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-7c01bee108"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-7c01bee108"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-7c01bee108"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-7c01bee108"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-7d64d93865"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-7d64d93865"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-7d64d93865"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-7d64d93865"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-7d64d93865"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-7e091983c8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-7e091983c8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-7e091983c8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-7e091983c8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-7e091983c8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-7f59027496"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-7f59027496"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-7f59027496"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-7f59027496"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-7f59027496"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-802bd54d78"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-802bd54d78"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-802bd54d78"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-802bd54d78"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-802bd54d78"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-822de18b01"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-822de18b01"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-822de18b01"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-822de18b01"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-822de18b01"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-83e356b1a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-83e356b1a8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-83e356b1a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-83e356b1a8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-83e356b1a8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-843c75ff21"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-843c75ff21"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-843c75ff21"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-843c75ff21"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-843c75ff21"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-86a4360356"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-86a4360356"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-86a4360356"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-86a4360356"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-86a4360356"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-887edbc267"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-887edbc267"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-887edbc267"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-887edbc267"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-887edbc267"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-88a5c5db8d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-88a5c5db8d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-88a5c5db8d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-88a5c5db8d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-88a5c5db8d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-88d3035c83"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-88d3035c83"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-88d3035c83"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-88d3035c83"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-88d3035c83"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-8935280f6b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-8935280f6b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-8935280f6b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-8935280f6b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-8935280f6b"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-8a41b18ae9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-8a41b18ae9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-8a41b18ae9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-8a41b18ae9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-8a41b18ae9"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-8b440c4342"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-8b440c4342"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-8b440c4342"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-8b440c4342"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-8b440c4342"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-8b91c66959"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-8b91c66959"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-8b91c66959"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-8b91c66959"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-8b91c66959"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-8bc6b51bf4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-8bc6b51bf4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-8bc6b51bf4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-8bc6b51bf4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-8bc6b51bf4"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-8c2b5c10bd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-8c2b5c10bd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-8c2b5c10bd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-8c2b5c10bd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-8c2b5c10bd"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-91f37e492e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-91f37e492e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-91f37e492e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-91f37e492e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-91f37e492e"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-92fc4af533"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-92fc4af533"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-92fc4af533"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-92fc4af533"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-92fc4af533"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-93610af558"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-93610af558"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-93610af558"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-93610af558"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-93610af558"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-9381f42734"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-9381f42734"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-9381f42734"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-9381f42734"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-9381f42734"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-94fcc1d3d9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-94fcc1d3d9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-94fcc1d3d9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-94fcc1d3d9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-94fcc1d3d9"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-95db5112f8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-95db5112f8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-95db5112f8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-95db5112f8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-95db5112f8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-96185dfe66"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-96185dfe66"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-96185dfe66"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-96185dfe66"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-96185dfe66"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-96c24b8a7b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-96c24b8a7b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-96c24b8a7b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-96c24b8a7b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-96c24b8a7b"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-9773a67616"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-9773a67616"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-9773a67616"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-9773a67616"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-9773a67616"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-978adf013d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-978adf013d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-978adf013d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-978adf013d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-978adf013d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-981da10877"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-981da10877"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-981da10877"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-981da10877"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-981da10877"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-992467b593"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-992467b593"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-992467b593"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-992467b593"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-992467b593"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-99c0fd4095"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-99c0fd4095"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-99c0fd4095"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-99c0fd4095"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-99c0fd4095"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-9aa3cd3959"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-9aa3cd3959"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-9aa3cd3959"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-9aa3cd3959"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-9aa3cd3959"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-9abda5dd82"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-9abda5dd82"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-9abda5dd82"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-9abda5dd82"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-9abda5dd82"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-9d728b8bf8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-9d728b8bf8"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-9d728b8bf8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-9d728b8bf8"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-9d728b8bf8"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-9eec0ff9a1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-9eec0ff9a1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-9eec0ff9a1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-9eec0ff9a1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-9eec0ff9a1"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-9f75d0e905"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-9f75d0e905"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-9f75d0e905"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-9f75d0e905"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-9f75d0e905"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-a01bf2c201"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-a01bf2c201"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-a01bf2c201"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-a01bf2c201"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-a01bf2c201"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-a09e6e12b9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-a09e6e12b9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-a09e6e12b9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-a09e6e12b9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-a09e6e12b9"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-a3c8864a70"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-a3c8864a70"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-a3c8864a70"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-a3c8864a70"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-a3c8864a70"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-a5e29dc3a5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-a5e29dc3a5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-a5e29dc3a5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-a5e29dc3a5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-a5e29dc3a5"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-a6c5f2a13c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-a6c5f2a13c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-a6c5f2a13c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-a6c5f2a13c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-a6c5f2a13c"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-a736451cb1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-a736451cb1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-a736451cb1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-a736451cb1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-a736451cb1"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-a85e1bf7d4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-a85e1bf7d4"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-a85e1bf7d4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-a85e1bf7d4"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-a85e1bf7d4"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-a97b2fed1f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-a97b2fed1f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-a97b2fed1f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-a97b2fed1f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-a97b2fed1f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-ae63319a5e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-ae63319a5e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-ae63319a5e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-ae63319a5e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-ae63319a5e"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-aec0366666"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-aec0366666"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-aec0366666"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-aec0366666"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-aec0366666"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-aee868250a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-aee868250a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-aee868250a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-aee868250a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-aee868250a"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-af9d084afa"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-af9d084afa"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-af9d084afa"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-af9d084afa"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-af9d084afa"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-b1eda9b1cb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-b1eda9b1cb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-b1eda9b1cb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-b1eda9b1cb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-b1eda9b1cb"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-b2c0552b51"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-b2c0552b51"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-b2c0552b51"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-b2c0552b51"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-b2c0552b51"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-b347487713"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-b347487713"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-b347487713"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-b347487713"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-b347487713"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-b500f47d9a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-b500f47d9a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-b500f47d9a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-b500f47d9a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-b500f47d9a"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-b5e6740bc3"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-b5e6740bc3"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-b5e6740bc3"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-b5e6740bc3"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-b5e6740bc3"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-b6361326b5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-b6361326b5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-b6361326b5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-b6361326b5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-b6361326b5"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-b65d38759d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-b65d38759d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-b65d38759d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-b65d38759d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-b65d38759d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-b77b0fe5dc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-b77b0fe5dc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-b77b0fe5dc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-b77b0fe5dc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-b77b0fe5dc"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-baa7ec06e7"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-baa7ec06e7"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-baa7ec06e7"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-baa7ec06e7"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-baa7ec06e7"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-bafa41802f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-bafa41802f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-bafa41802f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-bafa41802f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-bafa41802f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-bc69719112"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-bc69719112"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-bc69719112"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-bc69719112"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-bc69719112"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-bc8f7fcf24"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-bc8f7fcf24"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-bc8f7fcf24"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-bc8f7fcf24"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-bc8f7fcf24"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-be1b37e33d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-be1b37e33d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-be1b37e33d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-be1b37e33d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-be1b37e33d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-bf025c192e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-bf025c192e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-bf025c192e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-bf025c192e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-bf025c192e"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c0216f1c7c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c0216f1c7c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c0216f1c7c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c0216f1c7c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c0216f1c7c"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c038dccfdd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c038dccfdd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c038dccfdd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c038dccfdd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c038dccfdd"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c161019a33"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c161019a33"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c161019a33"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c161019a33"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c161019a33"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c24257bf68"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c24257bf68"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c24257bf68"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c24257bf68"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c24257bf68"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c33cd2611b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c33cd2611b"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c33cd2611b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c33cd2611b"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c33cd2611b"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c48646b609"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c48646b609"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c48646b609"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c48646b609"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c48646b609"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c4d221a6cb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c4d221a6cb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c4d221a6cb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c4d221a6cb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c4d221a6cb"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c55fc371fa"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c55fc371fa"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c55fc371fa"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c55fc371fa"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c55fc371fa"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c5afb64770"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c5afb64770"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c5afb64770"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c5afb64770"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c5afb64770"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c5e2f053b5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c5e2f053b5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c5e2f053b5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c5e2f053b5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c5e2f053b5"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c6c4f130dc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c6c4f130dc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c6c4f130dc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c6c4f130dc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c6c4f130dc"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c73ac0ab32"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c73ac0ab32"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c73ac0ab32"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c73ac0ab32"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c73ac0ab32"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c8fac25195"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c8fac25195"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c8fac25195"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c8fac25195"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c8fac25195"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c92315f815"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c92315f815"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c92315f815"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c92315f815"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c92315f815"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c94e4724e9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c94e4724e9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c94e4724e9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c94e4724e9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c94e4724e9"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c9994cc749"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c9994cc749"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c9994cc749"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c9994cc749"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c9994cc749"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-c9ce642161"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-c9ce642161"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-c9ce642161"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-c9ce642161"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-c9ce642161"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-cb9645a588"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-cb9645a588"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-cb9645a588"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-cb9645a588"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-cb9645a588"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-cda7e4a1a7"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-cda7e4a1a7"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-cda7e4a1a7"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-cda7e4a1a7"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-cda7e4a1a7"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-cea6573ae0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-cea6573ae0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-cea6573ae0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-cea6573ae0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-cea6573ae0"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-ceb1641bb5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-ceb1641bb5"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-ceb1641bb5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-ceb1641bb5"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-ceb1641bb5"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-d073d97897"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-d073d97897"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-d073d97897"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-d073d97897"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-d073d97897"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-d159d93ec7"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-d159d93ec7"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-d159d93ec7"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-d159d93ec7"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-d159d93ec7"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-d1a666a34d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-d1a666a34d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-d1a666a34d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-d1a666a34d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-d1a666a34d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-d3d178a832"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-d3d178a832"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-d3d178a832"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-d3d178a832"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-d3d178a832"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-d4ddee89b3"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-d4ddee89b3"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-d4ddee89b3"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-d4ddee89b3"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-d4ddee89b3"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-d5350b1c2d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-d5350b1c2d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-d5350b1c2d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-d5350b1c2d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-d5350b1c2d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-d76dcde0fd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-d76dcde0fd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-d76dcde0fd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-d76dcde0fd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-d76dcde0fd"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-d770e65a4a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-d770e65a4a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-d770e65a4a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-d770e65a4a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-d770e65a4a"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-d78445e0fa"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-d78445e0fa"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-d78445e0fa"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-d78445e0fa"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-d78445e0fa"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-db13243d2e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-db13243d2e"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-db13243d2e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-db13243d2e"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-db13243d2e"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-db3f28c780"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-db3f28c780"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-db3f28c780"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-db3f28c780"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-db3f28c780"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-dc608b86cf"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-dc608b86cf"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-dc608b86cf"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-dc608b86cf"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-dc608b86cf"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-dca72ef56f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-dca72ef56f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-dca72ef56f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-dca72ef56f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-dca72ef56f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-dd8967f07f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-dd8967f07f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-dd8967f07f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-dd8967f07f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-dd8967f07f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-de6e21e4ef"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-de6e21e4ef"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-de6e21e4ef"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-de6e21e4ef"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-de6e21e4ef"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-ded567e733"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-ded567e733"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-ded567e733"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-ded567e733"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-ded567e733"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-df7acb0b48"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-df7acb0b48"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-df7acb0b48"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-df7acb0b48"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-df7acb0b48"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e1bd54c121"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e1bd54c121"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e1bd54c121"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e1bd54c121"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e1bd54c121"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e4495a5379"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e4495a5379"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e4495a5379"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e4495a5379"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e4495a5379"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e54b70a4c0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e54b70a4c0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e54b70a4c0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e54b70a4c0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e54b70a4c0"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e5525529e9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e5525529e9"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e5525529e9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e5525529e9"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e5525529e9"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e5b986ba2d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e5b986ba2d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e5b986ba2d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e5b986ba2d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e5b986ba2d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e5c17bb0b0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e5c17bb0b0"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e5c17bb0b0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e5c17bb0b0"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e5c17bb0b0"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e622069c6d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e622069c6d"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e622069c6d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e622069c6d"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e622069c6d"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e696559e41"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e696559e41"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e696559e41"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e696559e41"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e696559e41"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e89dbc39a1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e89dbc39a1"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e89dbc39a1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e89dbc39a1"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e89dbc39a1"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-e913800183"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-e913800183"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-e913800183"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-e913800183"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-e913800183"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-ebea3e9428"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-ebea3e9428"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-ebea3e9428"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-ebea3e9428"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-ebea3e9428"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-ec1ccae66f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-ec1ccae66f"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-ec1ccae66f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-ec1ccae66f"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-ec1ccae66f"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-ed5682e048"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-ed5682e048"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-ed5682e048"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-ed5682e048"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-ed5682e048"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-eecbe3bc98"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-eecbe3bc98"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-eecbe3bc98"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-eecbe3bc98"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-eecbe3bc98"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-f2897b28bd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-f2897b28bd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-f2897b28bd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-f2897b28bd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-f2897b28bd"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-f3a8445cdd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-f3a8445cdd"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-f3a8445cdd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-f3a8445cdd"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-f3a8445cdd"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-f481d75be3"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-f481d75be3"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-f481d75be3"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-f481d75be3"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-f481d75be3"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-f652b4edcc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-f652b4edcc"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-f652b4edcc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-f652b4edcc"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-f652b4edcc"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-f7234b353a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-f7234b353a"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-f7234b353a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-f7234b353a"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-f7234b353a"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-f95932e9bb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-f95932e9bb"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-f95932e9bb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-f95932e9bb"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-f95932e9bb"
+  },
+  {
+    "rule": "D05",
+    "severity": "WARN",
+    "message": "[draft] environment.docker_image is empty",
+    "instance_id": "ftg-fccd6f638c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] Hy rollout_n 0 < 8",
+    "instance_id": "ftg-fccd6f638c"
+  },
+  {
+    "rule": "D09",
+    "severity": "WARN",
+    "message": "[draft] SOTA rollout_n 0 < 5",
+    "instance_id": "ftg-fccd6f638c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] SOTA reward_std is 0 (needs hint evidence or non-zero variance)",
+    "instance_id": "ftg-fccd6f638c"
+  },
+  {
+    "rule": "D13",
+    "severity": "WARN",
+    "message": "[draft] turn rule failed (Hy median 0 < 80 and SOTA median 0 < 60)",
+    "instance_id": "ftg-fccd6f638c"
+  }
+]

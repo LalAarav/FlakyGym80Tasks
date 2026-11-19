@@ -1,0 +1,276 @@
+# Final authoring QC
+
+## Instruction ↔ environment
+
+No findings.
+
+## Instruction ↔ verifier
+
+No findings.
+
+## Tests / verifier
+
+No findings.
+
+## Solution
+
+| Severity | Task | Check | Message |
+| --- | --- | --- | --- |
+| REPORT | `ftg-00536139a2` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-00f27c45d6` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-0143192904` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-019896aed1` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-0222d8091f` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-0300f4a660` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-053a3c5848` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-06936e3950` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-08509a7c1d` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-0985d40e2f` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-0ae335bbaf` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-0dcfe5294c` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-0ebeca8659` | instructional-value | solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-0f3f0698fd` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-10bf8eeee9` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-10ce08bd02` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-12c5161e25` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-14fc1f52a1` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-15705e7120` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-161f1eb130` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-16d814398f` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-18f37797c4` | instructional-value | solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-1b156d83a8` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-1b555371b8` | instructional-value | solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-1be7613865` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-1cf15406c1` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-1ed0557e53` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-1f0e8868c2` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-1f26ee3794` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-20a52360b1` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2211df8cb8` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-222abbfa49` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2522fdf592` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-257119a4af` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-25eba9f267` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-261221c130` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-27a7c0c18a` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-288621aacd` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-29214f1ee5` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2a24e300b6` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2a34d736fa` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2a935af744` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2b1799a3a9` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2b5d727c0f` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2c182b9b87` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2d4049e555` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2d794b41a8` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-2ea948385d` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-309b55badb` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-31bbc20a10` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-328eff12b1` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-32b7db0961` | instructional-value | solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-33c6680e6b` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-33cee615a6` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-3639ea646a` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-364ebd95a4` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-368fac48cf` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-3712c2d978` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-3b8c8b1f06` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-3ba2678d4f` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-3bac8a49ae` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-3c2f113d24` | instructional-value | solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-3c9bd1313e` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-3e0829a01f` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-3e1fd055b4` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-401009a83c` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-401eccaf3f` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4047f41244` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-405bad23c8` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4098426688` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-427dbf3f31` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4282cff61f` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-428b12d501` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-42d205c695` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-434857fea4` | instructional-value | solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-44edbfa325` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-456ff35c31` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-45ceacb294` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-46b88373e7` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-46e5aede5a` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-48c8ad35f5` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-48f7e315a8` | instructional-value | solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-491722fc71` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-492b001a2f` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4a80401544` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4b8d5b989e` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4cb2be988d` | instructional-value | solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4d3ba0468b` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4d69c628d2` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4ec45182e0` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4ec4f4858f` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4f6d629afe` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-4fd1ef8078` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-513948417c` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-514656aba9` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-52ff1d456b` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-53212db8a8` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-561f7f4af4` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-56c31a4c82` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-5757db9774` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-575b23157a` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-589f0b71e9` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-58de8036f2` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-594ce6170c` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-59c21d69f5` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-5d35fe0808` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-5e21351d50` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-5eb5310ddb` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-5f0257dc01` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-61cda5a98f` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-66a2c305c5` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-683030d3b0` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-69a01cc4e0` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-6b1e33c2dc` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-6b8d88912d` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-6c5b1670cc` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-6d5f0b81fc` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-70545a729c` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-726ed9e120` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-72cf8e9b7d` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-73b7f371ab` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-7417533f3c` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-743d3dd6db` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-75f777b21f` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-79edc8a7c6` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-7a66b4dc05` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-7a8febee5d` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-7b5e3e0760` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-7bfce25a6c` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-7c01bee108` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-7d64d93865` | instructional-value | solve.sh applies 6 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-7e091983c8` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-7f59027496` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-802bd54d78` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-822de18b01` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-83e356b1a8` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-843c75ff21` | instructional-value | solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-86a4360356` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-887edbc267` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-88a5c5db8d` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-88d3035c83` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-8935280f6b` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-8a41b18ae9` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-8b440c4342` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-8b91c66959` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-8bc6b51bf4` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-8c2b5c10bd` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-91f37e492e` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-92fc4af533` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-93610af558` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-9381f42734` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-94fcc1d3d9` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-95db5112f8` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-96185dfe66` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-96c24b8a7b` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-9773a67616` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-978adf013d` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-981da10877` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-992467b593` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-99c0fd4095` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-9aa3cd3959` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-9abda5dd82` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-9d728b8bf8` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-9eec0ff9a1` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-9f75d0e905` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-a01bf2c201` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-a09e6e12b9` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-a3c8864a70` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-a5e29dc3a5` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-a6c5f2a13c` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-a736451cb1` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-a85e1bf7d4` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-a97b2fed1f` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-ae63319a5e` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-aec0366666` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-aee868250a` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-af9d084afa` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-b1eda9b1cb` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-b2c0552b51` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-b347487713` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-b500f47d9a` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-b5e6740bc3` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-b6361326b5` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-b65d38759d` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-b77b0fe5dc` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-baa7ec06e7` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-bafa41802f` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-bc69719112` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-bc8f7fcf24` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-be1b37e33d` | instructional-value | solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-bf025c192e` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c0216f1c7c` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c038dccfdd` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c161019a33` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c24257bf68` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c33cd2611b` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c48646b609` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c4d221a6cb` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c55fc371fa` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c5afb64770` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c5e2f053b5` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c6c4f130dc` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c73ac0ab32` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c8fac25195` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c92315f815` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c94e4724e9` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c9994cc749` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-c9ce642161` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-cb9645a588` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-cda7e4a1a7` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-cea6573ae0` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-ceb1641bb5` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-d073d97897` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-d159d93ec7` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-d1a666a34d` | instructional-value | solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-d3d178a832` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-d4ddee89b3` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-d5350b1c2d` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-d76dcde0fd` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-d770e65a4a` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-d78445e0fa` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-db13243d2e` | instructional-value | solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-db3f28c780` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-dc608b86cf` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-dca72ef56f` | instructional-value | solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-dd8967f07f` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-de6e21e4ef` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-ded567e733` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-df7acb0b48` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e1bd54c121` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e4495a5379` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e54b70a4c0` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e5525529e9` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e5b986ba2d` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e5c17bb0b0` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e622069c6d` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e696559e41` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e89dbc39a1` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-e913800183` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-ebea3e9428` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-ec1ccae66f` | instructional-value | solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-ed5682e048` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-eecbe3bc98` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-f2897b28bd` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-f3a8445cdd` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-f481d75be3` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-f652b4edcc` | instructional-value | solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-f7234b353a` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-f95932e9bb` | instructional-value | solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+| REPORT | `ftg-fccd6f638c` | instructional-value | solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump. |
+
+## Config
+
+No findings.
+
+## Documentation
+
+No findings.

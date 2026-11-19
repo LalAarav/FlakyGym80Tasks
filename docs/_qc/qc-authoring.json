@@ -1,0 +1,1752 @@
+[
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-00536139a2"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-00f27c45d6"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-0143192904"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-019896aed1"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-0222d8091f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-0300f4a660"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-053a3c5848"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-06936e3950"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-08509a7c1d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-0985d40e2f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-0ae335bbaf"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-0dcfe5294c"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-0ebeca8659"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-0f3f0698fd"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-10bf8eeee9"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-10ce08bd02"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-12c5161e25"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-14fc1f52a1"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-15705e7120"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-161f1eb130"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-16d814398f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-18f37797c4"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-1b156d83a8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-1b555371b8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-1be7613865"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-1cf15406c1"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-1ed0557e53"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-1f0e8868c2"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-1f26ee3794"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-20a52360b1"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2211df8cb8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-222abbfa49"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2522fdf592"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-257119a4af"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-25eba9f267"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-261221c130"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-27a7c0c18a"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-288621aacd"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-29214f1ee5"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2a24e300b6"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2a34d736fa"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2a935af744"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2b1799a3a9"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2b5d727c0f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2c182b9b87"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2d4049e555"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2d794b41a8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-2ea948385d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-309b55badb"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-31bbc20a10"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-328eff12b1"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-32b7db0961"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-33c6680e6b"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-33cee615a6"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-3639ea646a"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-364ebd95a4"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-368fac48cf"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-3712c2d978"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-3b8c8b1f06"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-3ba2678d4f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-3bac8a49ae"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-3c2f113d24"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-3c9bd1313e"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-3e0829a01f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-3e1fd055b4"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-401009a83c"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-401eccaf3f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4047f41244"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-405bad23c8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4098426688"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-427dbf3f31"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4282cff61f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-428b12d501"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-42d205c695"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-434857fea4"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-44edbfa325"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-456ff35c31"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-45ceacb294"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-46b88373e7"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-46e5aede5a"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-48c8ad35f5"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-48f7e315a8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-491722fc71"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-492b001a2f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4a80401544"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4b8d5b989e"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4cb2be988d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4d3ba0468b"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4d69c628d2"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4ec45182e0"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4ec4f4858f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4f6d629afe"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-4fd1ef8078"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-513948417c"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-514656aba9"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-52ff1d456b"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-53212db8a8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-561f7f4af4"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-56c31a4c82"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-5757db9774"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-575b23157a"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-589f0b71e9"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-58de8036f2"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-594ce6170c"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-59c21d69f5"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-5d35fe0808"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-5e21351d50"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-5eb5310ddb"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-5f0257dc01"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-61cda5a98f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-66a2c305c5"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-683030d3b0"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-69a01cc4e0"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-6b1e33c2dc"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-6b8d88912d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-6c5b1670cc"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-6d5f0b81fc"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-70545a729c"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-726ed9e120"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-72cf8e9b7d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-73b7f371ab"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-7417533f3c"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-743d3dd6db"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-75f777b21f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-79edc8a7c6"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-7a66b4dc05"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-7a8febee5d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-7b5e3e0760"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-7bfce25a6c"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-7c01bee108"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 6 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-7d64d93865"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-7e091983c8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-7f59027496"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-802bd54d78"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-822de18b01"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-83e356b1a8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-843c75ff21"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-86a4360356"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-887edbc267"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-88a5c5db8d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-88d3035c83"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-8935280f6b"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-8a41b18ae9"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-8b440c4342"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-8b91c66959"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-8bc6b51bf4"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-8c2b5c10bd"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-91f37e492e"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-92fc4af533"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-93610af558"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-9381f42734"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-94fcc1d3d9"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-95db5112f8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-96185dfe66"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-96c24b8a7b"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-9773a67616"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-978adf013d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-981da10877"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-992467b593"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-99c0fd4095"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-9aa3cd3959"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-9abda5dd82"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-9d728b8bf8"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-9eec0ff9a1"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-9f75d0e905"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-a01bf2c201"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-a09e6e12b9"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-a3c8864a70"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-a5e29dc3a5"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-a6c5f2a13c"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-a736451cb1"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-a85e1bf7d4"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-a97b2fed1f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-ae63319a5e"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-aec0366666"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-aee868250a"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-af9d084afa"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-b1eda9b1cb"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-b2c0552b51"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-b347487713"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-b500f47d9a"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-b5e6740bc3"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-b6361326b5"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-b65d38759d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-b77b0fe5dc"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-baa7ec06e7"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-bafa41802f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-bc69719112"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-bc8f7fcf24"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-be1b37e33d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-bf025c192e"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c0216f1c7c"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c038dccfdd"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c161019a33"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c24257bf68"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c33cd2611b"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c48646b609"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c4d221a6cb"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c55fc371fa"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c5afb64770"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c5e2f053b5"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c6c4f130dc"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c73ac0ab32"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c8fac25195"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c92315f815"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c94e4724e9"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c9994cc749"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-c9ce642161"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-cb9645a588"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-cda7e4a1a7"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-cea6573ae0"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-ceb1641bb5"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-d073d97897"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-d159d93ec7"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 12 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-d1a666a34d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-d3d178a832"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-d4ddee89b3"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-d5350b1c2d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-d76dcde0fd"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-d770e65a4a"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-d78445e0fa"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-db13243d2e"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-db3f28c780"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-dc608b86cf"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 7 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-dca72ef56f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-dd8967f07f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-de6e21e4ef"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-ded567e733"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-df7acb0b48"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e1bd54c121"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e4495a5379"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e54b70a4c0"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e5525529e9"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e5b986ba2d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e5c17bb0b0"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e622069c6d"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e696559e41"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e89dbc39a1"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-e913800183"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-ebea3e9428"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 8 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-ec1ccae66f"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-ed5682e048"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-eecbe3bc98"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-f2897b28bd"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-f3a8445cdd"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-f481d75be3"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 11 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-f652b4edcc"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-f7234b353a"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 10 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-f95932e9bb"
+  },
+  {
+    "category": "solution",
+    "severity": "REPORT",
+    "check": "instructional-value",
+    "message": "solve.sh applies 9 helper file(s) and 1 mutating command(s). This has instructional value beyond a gold dump.",
+    "instance_id": "ftg-fccd6f638c"
+  }
+]
