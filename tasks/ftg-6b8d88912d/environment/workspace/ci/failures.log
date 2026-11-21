@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_retry.py (failed in 6 of the recorded runs)
+AssertionError: cancelled items delivered: {'job0'} assert not ({'job0', 'job3', 'job6'} & {'job0', 'job1', 'job10', 'job11', 'job2', 'job4', ...}) + where {'job0', 'job1', 'job10', 'job11', 'job2', 'job4', ...} = set(['job0', 'job1', 'job2', 'job4', 'job5'...
+
+== /app/tests_flaky/test_kvstate.py (failed in 2 of the recorded runs)
+AssertionError: assert {'sub/0': b'\...ddddddd', ...} == {'sub/0': b'\...ddddddd', ...} Omitting 149 identical items, use -vv to show Differing items: {'sub/105': b'iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii...

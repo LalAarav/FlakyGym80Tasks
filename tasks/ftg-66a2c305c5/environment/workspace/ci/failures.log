@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_metrics.py (failed in 1 of the recorded runs)
+AssertionError: 1090 timed deliveries but 1087 delivered assert (1090 - 1087) <= 2
+
+== /app/tests_flaky/test_kvstate.py (failed in 1 of the recorded runs)
+RuntimeError: dictionary changed size during iteration

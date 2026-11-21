@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_signing.py (failed in 3 of the recorded runs)
+AssertionError: deliveries accepted more than once: [(30, 2)] assert not [(30, 2)]
+
+== /app/tests_flaky/test_kvstate.py (failed in 2 of the recorded runs)
+AssertionError: assert {'new/3': b'x...x01\x01', ...} == {'new/3': b'x...x01\x01', ...} Omitting 151 identical items, use -vv to show Differing items: {'sub/45': b'---------------------------------------------------------------------------------------------...

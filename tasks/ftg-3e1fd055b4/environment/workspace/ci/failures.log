@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_retry.py (failed in 5 of the recorded runs)
+AssertionError: cancelled items delivered: {'job11'} assert not ({'job10', 'job11', 'job2', 'job3', 'job5', 'job7'} & {'job0', 'job1', 'job11', 'job4', 'job6', 'job8', ...}) + where {'job0', 'job1', 'job11', 'job4', 'job6', 'job8', ...} = set(['job0', 'job1...
+
+== /app/tests_flaky/test_queue.py (failed in 1 of the recorded runs)
+TimeoutError: queue not drained: {'ready': 0, 'leased': 1, 'done': 29}

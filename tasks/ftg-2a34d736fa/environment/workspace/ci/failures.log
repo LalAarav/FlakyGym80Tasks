@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_kvstate.py (failed in 10 of the recorded runs)
+AssertionError: assert {'topic/3': b'1-0'} == {'topic/0': b...: b'0-2', ...} Differing items: {'topic/3': b'1-0'} != {'topic/3': b'0-2'} Right contains 5 more items: {'topic/0': b'1-14', 'topic/1': b'0-14', 'topic/2': b'0-12',... ...Full output truncated (3...
+
+== /app/tests_flaky/test_kvstate.py (failed in 2 of the recorded runs)
+AssertionError: assert {'new/4': b'x...x01\x01', ...} == {'new/4': b'x...x01\x01', ...} Omitting 151 identical items, use -vv to show Right contains 1 more item: {'new/5': b'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' b'xxxxxxxxxxxxxxx...

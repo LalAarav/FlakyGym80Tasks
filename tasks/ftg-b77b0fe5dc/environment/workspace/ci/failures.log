@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_kvstate.py (failed in 5 of the recorded runs)
+AssertionError: assert {'topic/1': b'1-0'} == {'topic/0': b... b'0-11', ...} Differing items: {'topic/1': b'1-0'} != {'topic/1': b'0-14'} Right contains 5 more items: {'topic/0': b'1-12', 'topic/2': b'1-13', 'topic/3': b'0-11',... ...Full output truncated (...
+
+== /app/tests_flaky/test_cache.py (failed in 2 of the recorded runs)
+src.cache.loader.LoadError: backend hiccup for 7

@@ -88,7 +88,7 @@ def _module_aliases(tree: ast.AST, src_dir: Path) -> tuple[set[str], set[str], s
                 if _module_root(full) == "src":
                     is_mod = _src_module_exists(src_dir, full)
                 else:
-                    is_mod = full in STDLIB_MODULES or f"{node.module}.{a.name}" in sys.modules
+                    is_mod = full in STDLIB_MODULES or {f"{node.module}.{a.name}"} <= sys.modules.keys()
                 if is_mod:
                     from_mods.add(a.asname or a.name)
                     if _module_root(full) == "src":
@@ -98,7 +98,7 @@ def _module_aliases(tree: ast.AST, src_dir: Path) -> tuple[set[str], set[str], s
 
 def _reach_problem(attr: str, ok_modules: set[str], own: bool = False) -> str | None:
     """Why reaching ``attr`` through a module is banned (private names are fine in src.*)."""
-    if not own and attr.startswith("_") and not (attr.startswith("__") and attr.endswith("__")):
+    if not own and attr[:1] == "_" and not (attr[:2] == "__" and attr[-2:] == "__"):
         return f"private attribute '{attr}' of a module is not allowed"
     if attr in STDLIB_MODULES and attr not in ok_modules:
         return f"reaching module '{attr}' through another module is not allowed"
@@ -117,7 +117,7 @@ def scan(src_dir: Path, allowed_imports: set[str], scoped_imports: dict[str, lis
             if path.name == "__pycache__":
                 continue
             continue
-        if "__pycache__" in path.parts:
+        if path.parts.count("__pycache__") > 0:
             continue
         if not path.is_file():
             problems.append(f"{rel}: only regular files are allowed under src/")
@@ -140,7 +140,7 @@ def scan(src_dir: Path, allowed_imports: set[str], scoped_imports: dict[str, lis
         os_names = {a.asname or "os" for n in ast.walk(tree) if isinstance(n, ast.Import)
                     for a in n.names if a.name == "os"}
         os_names |= {"os" for n in ast.walk(tree) if isinstance(n, ast.Import)
-                     for a in n.names if a.name.startswith("os.") and not a.asname}
+                     for a in n.names if a.name[:3] == "os." and not a.asname}
         module_names = plain_mods | from_mods
         attr_bases = set()
         for node in ast.walk(tree):
@@ -214,15 +214,15 @@ def scan(src_dir: Path, allowed_imports: set[str], scoped_imports: dict[str, lis
                     hint = f" (allowed only in {', '.join(where)})" if where else ""
                     problems.append(f"{rel}:{node.lineno}: import of '{name}' is not allowed{hint}")
             elif isinstance(node, ast.Name) and node.id in BANNED_NAMES:
-                if node.id == "open" and "os" in os_like_ok:
+                if node.id == "open" and {"os"} <= os_like_ok:
                     continue
                 problems.append(f"{rel}:{node.lineno}: use of '{node.id}' is not allowed")
-            elif isinstance(node, ast.Name) and node.id.startswith("__") and node.id.endswith("__") \
+            elif isinstance(node, ast.Name) and node.id[:2] == "__" and node.id[-2:] == "__" \
                     and node.id not in ALLOWED_DUNDER_NAMES:
                 problems.append(f"{rel}:{node.lineno}: dunder name '{node.id}' is not allowed")
             elif isinstance(node, ast.Attribute):
                 attr = node.attr
-                if attr.startswith("__") and attr.endswith("__") and attr not in ALLOWED_DUNDERS:
+                if attr[:2] == "__" and attr[-2:] == "__" and attr not in ALLOWED_DUNDERS:
                     problems.append(f"{rel}:{node.lineno}: dunder attribute '{attr}' is not allowed")
                 elif attr in BANNED_ATTRS:
                     problems.append(f"{rel}:{node.lineno}: attribute '{attr}' is not allowed")

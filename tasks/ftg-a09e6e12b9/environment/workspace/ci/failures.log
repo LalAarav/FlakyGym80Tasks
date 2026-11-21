@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_metrics.py (failed in 3 of the recorded runs)
+AssertionError: 1001 timed deliveries but 998 delivered assert (1001 - 998) <= 2
+
+== /app/tests_flaky/test_signing.py (failed in 4 of the recorded runs)
+AssertionError: [FileNotFoundError(2, 'No such file or directory')] assert not [FileNotFoundError(2, 'No such file or directory')]

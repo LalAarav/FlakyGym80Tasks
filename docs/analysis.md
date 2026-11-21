@@ -2,7 +2,7 @@
 
 ## Batch summary
 
-Batch `AkharaAI_2026-10_001` from **AkharaAI**, 250 task(s), 2026-10-30. Models: `tencent/hy4-preview` think via Claude Code / OpenRouter; `gpt-5.6-sol` xhigh flex via Codex. Harbor 0.22.
+Batch `AkharaAI_2026-10_001` from **AlignAI**, 250 task(s), 2026-10-30. Models: `tencent/hy4-preview` think via Claude Code / OpenRouter; `gpt-5.6-sol` xhigh flex via Codex. Harbor 0.22.
 
 ## Rollout results per task
 

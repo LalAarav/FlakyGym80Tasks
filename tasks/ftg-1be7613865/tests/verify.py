@@ -258,7 +258,6 @@ EXPECTED_VISIBLE = {
 def finish(summary):
     LOGS.mkdir(parents=True, exist_ok=True)
     (LOGS / "summary.json").write_text(json.dumps(summary, indent=1))
-    (LOGS / "reward.txt").write_text(str(summary["reward"]))
     (LOGS / "reward.json").write_text(json.dumps({"reward": summary["reward"]}))
     print(json.dumps({k: v for k, v in summary.items() if k != "hidden_log"}, indent=1))
     sys.exit(0)

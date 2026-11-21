@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_fanout.py (failed in 4 of the recorded runs)
+AssertionError: assert {'evt-0': 1, ...t-11': 1, ...} == {'evt-0': 1, ...t-11': 1, ...} Omitting 29 identical items, use -vv to show Right contains 1 more item: {'evt-16': 1} Use -v to get more diff
+
+== /app/tests_flaky/test_cache.py (failed in 3 of the recorded runs)
+AssertionError: callers timed out instead of seeing the error: [TimeoutError('load of 0 did not finish within 2.0s')] assert not [TimeoutError('load of 0 did not finish within 2.0s'), TimeoutError('load of 0 did not finish within 2.0s')]

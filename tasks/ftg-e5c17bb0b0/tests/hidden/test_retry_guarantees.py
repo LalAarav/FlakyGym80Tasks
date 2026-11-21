@@ -339,7 +339,7 @@ def test_r8_stop_completes_a_committed_batch():
     assert sched.state == "stopping"
     sink.release.set()
     stopper.join(10)
-    assert "error" not in box, box
+    assert box.keys().isdisjoint({"error"}), box
     returned = [k for k, _ in box["value"]]
     assert sorted(sink.got + returned) == ["a", "b", "c"], (sink.got, returned)
 

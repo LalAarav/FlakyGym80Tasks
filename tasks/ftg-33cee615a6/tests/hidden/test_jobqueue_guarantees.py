@@ -19,6 +19,10 @@ from src.stats import Stats
 from src.queue.store import JobStore, StaleLease
 from src.queue.worker import RetryableError, WorkerPool
 
+def _has_dir(path, name):
+    """True when `name` is a directory component strictly between two slashes of `path`."""
+    return path.replace("\\", "/").split("/")[1:-1].count(name) > 0
+
 
 class FakeClock(SystemClock):
     def __init__(self):
@@ -102,7 +106,7 @@ def test_g1_partially_written_job_is_never_leasable(tmp_path):
 
     class SlowWriteFs(HookFs):
         def write_bytes(self, path, data):
-            if data and not paused and "/ids/" not in path.replace("\\", "/"):
+            if data and not paused and not _has_dir(path, "ids"):
                 paused.append(path)
                 with open(path, "wb") as fh:
                     fh.write(data[: len(data) // 2])
@@ -120,7 +124,7 @@ def test_g1_partially_written_job_is_never_leasable(tmp_path):
         resume.set()
         t.join(5)
     assert seen is None, "a job was leasable while its file was still being written"
-    assert "error" not in box, f"enqueue failed: {box.get('error')!r}"
+    assert box.keys().isdisjoint({"error"}), f"enqueue failed: {box.get('error')!r}"
     lease = store.lease("reader", 30)
     assert lease is not None and lease.job.payload == {"payload": "x" * 200}
 
@@ -131,7 +135,7 @@ def test_g2_concurrent_leases_are_exclusive(tmp_path):
     barrier = threading.Barrier(2, timeout=1.0)
 
     def hook(op, args):
-        if op in ("exists", "read_bytes") and "/ready/" in args[0].replace("\\", "/"):
+        if op in ("exists", "read_bytes") and _has_dir(args[0], "ready"):
             try:
                 barrier.wait()
             except threading.BrokenBarrierError:
@@ -144,7 +148,7 @@ def test_g2_concurrent_leases_are_exclusive(tmp_path):
     t2, b2 = _run(store.lease, "w2", 30)
     t1.join(10)
     t2.join(10)
-    assert "error" not in b1 and "error" not in b2, (b1.get("error"), b2.get("error"))
+    assert b1.keys().isdisjoint({"error"}) and b2.keys().isdisjoint({"error"}), (b1.get("error"), b2.get("error"))
     l1, l2 = b1["result"], b2["result"]
     assert l1 is not None and l2 is not None
     assert l1.job.id != l2.job.id, "the same job was leased to two workers"
@@ -247,7 +251,7 @@ def test_g6_stop_waits_for_in_flight_handler(tmp_path):
     release.set()
     stopper.join(10)
     assert still_waiting, "stop() returned while a handler was still running"
-    assert "error" not in box, box.get("error")
+    assert box.keys().isdisjoint({"error"}), box.get("error")
     assert seen == ["slow"]
     assert store.counts() == {"ready": 0, "leased": 0, "done": 1}
     leftover = [t for t in threading.enumerate() if t not in before and t is not stopper]
@@ -295,7 +299,7 @@ def test_g8_reap_while_other_threads_lease(tmp_path):
 
     def hook(op, args):
         src = args[0].replace("\\", "/")
-        if op == "rename" and "/leased/" in src and "/ready/" in args[1].replace("\\", "/") and not fired:
+        if op == "rename" and _has_dir(src, "leased") and _has_dir(args[1], "ready") and not fired:
             fired.append(True)
 
             def lease_two():
@@ -324,7 +328,7 @@ def test_g9_concurrent_enqueue_same_id_creates_one_job(tmp_path):
     barrier = threading.Barrier(2, timeout=1.0)
 
     def hook(op, args):
-        if op == "exists" and "/ids/" in args[0].replace("\\", "/"):
+        if op == "exists" and _has_dir(args[0], "ids"):
             try:
                 barrier.wait()
             except threading.BrokenBarrierError:

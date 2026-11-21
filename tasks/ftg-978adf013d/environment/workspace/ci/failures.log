@@ -1,0 +1,11 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_cache.py (failed in 2 of the recorded runs)
+AssertionError: callers timed out instead of seeing the error: [TimeoutError('load of 9 did not finish within 2.0s')] assert not [TimeoutError('load of 9 did not finish within 2.0s')]
+
+== /app/tests_flaky/test_client.py (failed in 1 of the recorded runs)
+src.rpc.wire.ProtocolError: undecodable frame: Unterminated string starting at: line 1 column 8 (char 7)
+
+== /app/tests_flaky/test_client.py (failed in 2 of the recorded runs)
+assert [] == [[0, 0], [0, ..., [0, 5], ...] Right contains 25 more items, first extra item: [0, 0] Use -v to get more diff

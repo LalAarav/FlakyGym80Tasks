@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_client.py (failed in 2 of the recorded runs)
+assert [[3, 0], [3, ..., [3, 5], ...] == [[3, 0], [3, ..., [3, 5], ...] Right contains one more item: [3, 24] Use -v to get more diff
+
+== /app/tests_flaky/test_kvstate.py (failed in 3 of the recorded runs)
+AssertionError: assert {'new/4': b'x...n\n\n\n', ...} == {'new/4': b'x...n\n\n\n', ...} Omitting 150 identical items, use -vv to show Differing items: {'sub/85': b'UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU...

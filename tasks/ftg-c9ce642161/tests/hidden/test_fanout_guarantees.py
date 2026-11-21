@@ -537,7 +537,7 @@ def test_f11_deliveries_carry_a_verifiable_signature(tmp_path):
                             signer=Signer(keyring))
     registry.subscribe("t", "s", ("s", 0))
     run(dispatcher, lambda: Publisher(store, registry).publish("t", {"total": 7}, event_id="e1"))
-    assert len(seen) == 1 and "signature" in seen[0], "the delivery was not signed"
+    assert len(seen) == 1 and {"signature"} <= seen[0].keys(), "the delivery was not signed"
     sig = seen[0]["signature"]
     verified = Verifier(Keyring(str(tmp_path / "keys"))).verify(sig["headers"], sig["body"].encode("utf-8"))
     assert verified.payload == {"event_id": "e1", "topic": "t", "body": {"total": 7}}

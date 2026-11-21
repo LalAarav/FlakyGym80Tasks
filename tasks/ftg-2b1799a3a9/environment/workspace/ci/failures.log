@@ -1,0 +1,5 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_retry.py (failed in 7 of the recorded runs)
+AssertionError: cancelled items delivered: {'job4'} assert not ({'job1', 'job4', 'job8', 'job9'} & {'job0', 'job10', 'job11', 'job2', 'job3', 'job4', ...}) + where {'job0', 'job10', 'job11', 'job2', 'job3', 'job4', ...} = set(['job0', 'job2', 'job3', 'job4'...

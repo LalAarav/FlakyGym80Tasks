@@ -294,7 +294,7 @@ def test_s7_concurrent_rotations_persist_latest_state(tmp_path):
     fs.release.set()
     t1.join(10)
     t2.join(10)
-    assert "error" not in b1 and "error" not in b2, (b1, b2)
+    assert b1.keys().isdisjoint({"error"}) and b2.keys().isdisjoint({"error"}), (b1, b2)
     published = ring.active_key_id
     reloaded = Keyring(str(tmp_path / "keys"), clock=clock)
     assert reloaded.active_key_id == published, \
@@ -449,7 +449,7 @@ def test_s11_concurrent_copies_accept_exactly_one(tmp_path):
     t2, b2 = run_thread(verifier.verify, msg.headers, msg.body)
     t1.join(10)
     t2.join(10)
-    accepted = [b for b in (b1, b2) if "value" in b]
+    accepted = [b for b in (b1, b2) if {"value"} <= b.keys()]
     assert len(accepted) == 1, f"{len(accepted)} copies accepted: {b1} {b2}"
     other = b2 if accepted[0] is b1 else b1
     assert isinstance(other.get("error"), VerificationError)
@@ -498,7 +498,7 @@ def test_s12_forged_copy_in_flight_does_not_block_genuine(tmp_path):
     msg = signer.sign({"n": 1})
     ring.setup_gate(release_on_second=False)
     t1, forged = run_thread(verifier.verify, forged_copy(msg), msg.body)
-    assert ring.first_inside.wait(5) or "error" in forged
+    assert ring.first_inside.wait(5) or {"error"} <= forged.keys()
     try:
         genuine = verifier.verify(msg.headers, msg.body)
     except VerificationError as exc:

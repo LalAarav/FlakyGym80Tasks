@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_kvstate.py (failed in 9 of the recorded runs)
+AssertionError: assert {'topic/5': b'1-0'} == {'topic/0': b... b'0-11', ...} Differing items: {'topic/5': b'1-0'} != {'topic/5': b'0-7'} Right contains 5 more items: {'topic/0': b'0-13', 'topic/1': b'0-12', 'topic/2': b'0-6',... ...Full output truncated (3 ...
+
+== /app/tests_flaky/test_queue.py (failed in 1 of the recorded runs)
+AssertionError: a worker thread crashed: FileNotFoundError(2, 'No such file or directory') assert not [FileNotFoundError(2, 'No such file or directory')]

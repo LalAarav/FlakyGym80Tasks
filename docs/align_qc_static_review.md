@@ -1,40 +1,35 @@
 # Align QC static review (hard-80 subset)
 
-Response to Align task QC report `align-qc-aeb2de37288e4cf3bae43dda9156e872` (Harbor 0.26.0, engine 0.2.7,
-2026-11-19). The report had 0 errors and 1,600 warnings across 160 folders. Every warning occurred identically in
-every folder: the 80 `tasks/<id>` folders and the 80 `docs/<id>/edit_history/v0/task` snapshots. The 80 tasks share
-one verifier and one hidden suite, so each candidate below is answered once and the answer applies to all of them.
+Response to Align task QC report `align-qc-df02c884285043ed81ad4f1320614e67` (generic profile, Harbor 0.26.0,
+engine 0.2.8, snapshot `49e9dd7`). The report had 80 errors (five Axis 1 checks failing on every task) and 720
+warnings. Every task shares the same verifier, hidden suite and Dockerfiles, so each fix below was applied
+identically to all 80 `tasks/<id>` folders. The `docs/<id>/edit_history/v0/task` snapshots are history and were left
+as they were.
 
-## Changed
+## Errors fixed
 
-| Rule | Finding | Action |
-|---|---|---|
-| `harbor.root-agent` | `[agent] user` omitted, so the agent ran as root | `user = "agent"` added to `[agent]` in all 80 `tasks/<id>/task.toml`. The image already creates `agent` (uid 1000) and makes `/app` writable (`chmod -R a+rwX /app`). Harbor still installs tmux as root during agent setup. |
+| Check | Fix |
+|---|---|
+| `check-lockfiles.sh` | Both Dockerfiles copy a committed `deps/pyproject.toml` and `deps/uv.lock` to `/opt/deps`, run `uv export --locked`, and install with `pip install --require-hashes --no-deps -r /opt/deps/requirements.txt`. `uv` comes from `ghcr.io/astral-sh/uv:0.12.5` pinned by digest. pytest 9.1.1 is unchanged. |
+| `check-task-fields.sh` | `[metadata]` now has `author_name`, `author_email`, `author_github`, `author_organization`, `category = "Software"`, `subcategory = "Systems"`, `tags` and `expert_time_estimate_hours`. Each task has a `README.md` with the four required sections and a `## Task Metadata` block that matches `task.toml`. |
+| `check-task-package-name.sh` | `[task] name = "terminal-bench/<id>"`. |
+| `check-task-absolute-path.sh` | Policy lines name `/app/src/fsops.py`, `/app/src/rpc/conn.py` and `/app/src/clock.py` by absolute path. Banned module names are given as `conftest`, `sitecustomize` and `usercustomize`. The verbatim CI assertion messages, which contained strings like `'topic/0'`, moved unchanged into `/app/ci/failures.log`, and the instruction points there. |
+| `check-reward-file-format.sh` | The verifier writes only `/logs/verifier/reward.json` (the `reward.txt` writes in `tests/test.sh` and `tests/verify.py` were removed). |
 
-## Kept, with reasons
+## Warnings and info fixed
 
-| Rule | Finding | Verdict |
-|---|---|---|
-| `harbor.unknown-config-field` | top-level `[judge]` | Kept. The delivery spec requires it at the top level (Tencent V3 R-1.30; tb-ci G0 check `F7.judge`). Moving it under `[metadata]` would fail that gate, and `[metadata]` is a closed key set (R-1.20, `F3`). Harbor ignores the block at runtime. |
-| `harbor.unknown-config-field` | top-level `[rollout_baseline]` | Kept. Required at the top level by Tencent V3 R-1.28/1.29 (tb-ci `F6.baselines`). It holds only the measured oracle 1.0 and nop 0.0 baselines. |
-| Duplicate folders `task` | 80 folders named `task` | Not duplicates. They are the `docs/<id>/edit_history/v0/task` snapshots that the spec requires (V3 R-1.16), and every fingerprint differs. The tasks to score are `tasks/<id>` only. |
+| Rule | Fix |
+|---|---|
+| `harbor.unknown-config-field` (`judge`, `rollout_baseline`) | Moved under `[metadata.judge]` and `[metadata.rollout_baseline]`. |
+| `framework.adoption` | `[metadata.align] framework_version = "0.2.8"`. |
+| `verifier.permissive-match` | All 21 substring and prefix predicates in `tests/hidden/` and `tests/policy.py` were rewritten as exact equivalents: key-set comparisons (`{"value"} <= b.keys()`, `box.keys().isdisjoint({"error"})`), path-component checks (`_has_dir(path, "ids")`), and fixed-width slice equality (`k[:5] == "batch"`, `attr[:2] == "__" and attr[-2:] == "__"`). Grading behaviour is unchanged. |
 
-## Static candidates refuted
+## Warning kept, with reason
 
-| Rule · location | Code | Why it is not a permissive grading predicate |
-|---|---|---|
-| `verifier.execution-isolation` · `tests/verify.py:280` | `as_agent()` runs pytest via `setpriv --reuid=1000 --regid=1000 --clear-groups` | This is the intended isolation boundary. Before it runs: `/tests` and `/logs/verifier` are made `root:root 0700`. The submission is copied to `/work`, which is `chown 0:0` and `chmod a-w`. The visible suite is restored from an archive and checked against a SHA-256 manifest. JUnit reports go to random 128-bit names in a `0733` directory that the test user cannot list. Only root writes `reward.txt`/`reward.json`. A run counts only when pytest exits 0 and reports exactly the expected test ids, with nothing missing and nothing extra. Agent code is never imported into the scoring process, which reads only the XML report. |
-| `verifier.permissive-match` · `tests/hidden/test_fanout_guarantees.py:540` | `"signature" in seen[0]` | A dict-key presence check on the captured delivery. It is followed by an exact equality on the verified payload: `verified.payload == {"event_id": "e1", "topic": "t", "body": {"total": 7}}`. |
-| `verifier.permissive-match` · `tests/hidden/test_jobqueue_guarantees.py:105` | `"/ids/" not in path` | Part of the test fixture (a `HookFs.write_bytes` override). It chooses which write to pause and is not a grading predicate. |
-| `verifier.permissive-match` · `tests/hidden/test_journal_guarantees.py:365` | `k.startswith("batch")` | Selects the keys under test. The assertions are exact: `present == []` and `reopen(work).items() == {"base": b"b", "after": b"x"}`. |
-| `verifier.permissive-match` · `tests/hidden/test_retry_guarantees.py:342` | `"error" not in box` | A dict-key check that the worker thread raised nothing. It is followed by an exact equality: `sorted(sink.got + returned) == ["a", "b", "c"]`. |
-| `verifier.permissive-match` · `tests/hidden/test_signing_guarantees.py:452` | `"value" in b` | A dict-key check on thread results. The assertions are exact: `len(accepted) == 1` and `isinstance(other.get("error"), VerificationError)`. |
-| `verifier.permissive-match` · `tests/policy.py:225` | `attr.startswith("__") and attr.endswith("__")` | The anti-cheat AST scanner. Prefix/suffix matching here makes it reject more (any dunder attribute outside an allowlist), so it cannot accept a wrong answer. |
+| Rule · location | Reason |
+|---|---|
+| `verifier.execution-isolation` · `tests/verify.py` | Running the agent's code is the point of the verifier, so this boundary cannot be removed. It is already isolated. `/tests` and `/logs/verifier` are made `root:root 0700`. The submission is copied to a root-owned, read-only `/work`. The visible suite is restored from an archive and checked against a SHA-256 manifest. pytest runs via `setpriv --reuid=1000 --regid=1000 --clear-groups`. Reports go to random 128-bit names in a directory the test user cannot list. Only root writes `reward.json`, and a run counts only when pytest exits 0 and reports exactly the expected test ids. |
 
-No agent output text is graded by substring, prefix or regex. Reward is binary. It is 1 only if every hidden check
-passes and the visible suite passes in all `visible_runs` repeats.
+## Not covered by static QC
 
-## Still to run (Align `runtime.*` and `acceptance.*`)
-
-The edit changes each task's fingerprint, so oracle and nop evidence must be re-measured for these 80 fingerprints.
-Static QC cannot cover image build, oracle, nop, repeatability, adversarial or difficulty runs.
+Every edit above changes the task fingerprint, so oracle and nop evidence must be re-measured for these fingerprints.

@@ -1,0 +1,11 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_kvstate.py (failed in 5 of the recorded runs)
+AssertionError: assert {'topic/0': b...: b'0-9', ...} == {'topic/0': b... b'1-14', ...} Omitting 3 identical items, use -vv to show Differing items: {'topic/1': b'0-6'} != {'topic/1': b'0-14'} {'topic/3': b'0-9'} != {'topic/3': b'1-14'} {'topic/5': b'0-7'} ...
+
+== /app/tests_flaky/test_signing.py (failed in 2 of the recorded runs)
+AssertionError: [FileNotFoundError(2, 'No such file or directory')] assert not [FileNotFoundError(2, 'No such file or directory'), FileNotFoundError(2, 'No such file or directory')]
+
+== /app/tests_flaky/test_kvstate.py (failed in 1 of the recorded runs)
+AssertionError: assert {'new/1': b'x...n\n\n\n', ...} == {'new/1': b'x...x01\x01', ...} Omitting 151 identical items, use -vv to show Right contains 1 more item: {'new/6': b'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' b'xxxxxxxxxxxxxxx...

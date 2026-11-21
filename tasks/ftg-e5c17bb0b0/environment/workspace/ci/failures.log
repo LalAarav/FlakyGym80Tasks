@@ -1,0 +1,5 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_metrics.py (failed in 2 of the recorded runs)
+AssertionError: 2800 timed deliveries but 2797 delivered assert (2800 - 2797) <= 2

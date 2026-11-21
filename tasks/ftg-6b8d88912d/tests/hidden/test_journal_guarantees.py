@@ -345,7 +345,7 @@ def test_j4_large_batch_cut_by_a_crash_is_all_or_nothing(tmp_path):
     with pytest.raises(ProcessDied):
         _big_batch(s)
     got = reopen(tmp_path).items()
-    present = [k for k in got if k.startswith("batch")]
+    present = [k for k in got if k[:5] == "batch"]
     assert len(present) in (0, 40), f"{len(present)} of 40 batch keys recovered"
     assert got["base"] == b"b"
 
@@ -362,7 +362,7 @@ def test_j4_large_batch_cut_at_any_offset_is_all_or_nothing(tmp_path):
         shutil.copytree(base, work)
         os.truncate(work / name, cut)
         r = reopen(work)
-        present = [k for k in r.items() if k.startswith("batch")]
+        present = [k for k in r.items() if k[:5] == "batch"]
         assert present == [], f"cut at {cut - start}: {len(present)} of 40 batch keys recovered"
         r.put("after", b"x")
         assert reopen(work).items() == {"base": b"b", "after": b"x"}

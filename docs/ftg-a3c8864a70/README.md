@@ -1,6 +1,6 @@
 # ftg-a3c8864a70
 
-- **Vendor / authors:** AkharaAI / Akhara AI
+- **Vendor / authors:** AlignAI / Align AI
 - **Family slug:** `terminal-software-systems`
 - **Language:** en
 - **Prompt created:** 2026-10-30
@@ -14,7 +14,7 @@ Authoring README follows. This file lives under `docs/<instance_id>/` in the del
 
 Reviewer-facing. The agent never sees this file.
 
-**Origin.** Original task written by Akhara AI for the Flaky Test Gym (realflaky v8 tier, source
+**Origin.** Original task written by Align AI for the Flaky Test Gym (realflaky v8 tier, source
 task `ftg5_fanout_per-failed-delive-breake-persis-one-leases-claim-recove-short-reanch-stale_800fdc`). The service (`fanout`, about 4.5k lines of Python across a durable file queue, a
 write-ahead journal, an RPC client, a TTL cache, retry timers, request signing and SLO metrics) was
 written for this benchmark and is not published anywhere; the planted bugs are drawn from a fixed

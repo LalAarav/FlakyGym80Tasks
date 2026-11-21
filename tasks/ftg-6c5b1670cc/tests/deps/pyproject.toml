@@ -1,0 +1,6 @@
+[project]
+name = "fanout-verifier-env"
+version = "1.0.0"
+description = "Pinned test tooling for the fanout task image (verifier-env)."
+requires-python = ">=3.12,<3.13"
+dependencies = ["pytest==9.1.1"]

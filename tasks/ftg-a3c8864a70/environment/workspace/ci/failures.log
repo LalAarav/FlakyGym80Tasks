@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_cache.py (failed in 7 of the recorded runs)
+src.cache.loader.LoadError: backend hiccup for 4
+
+== /app/tests_flaky/test_metrics.py (failed in 1 of the recorded runs)
+AssertionError: 3459 timed deliveries but 3456 delivered assert (3459 - 3456) <= 2

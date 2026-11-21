@@ -1,0 +1,11 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_client.py (failed in 2 of the recorded runs)
+src.rpc.wire.ProtocolError: undecodable frame: Unterminated string starting at: line 1 column 8 (char 7)
+
+== /app/tests_flaky/test_client.py (failed in 1 of the recorded runs)
+assert [[1, 0], [1, ..., [1, 5], ...] == [[1, 0], [1, ..., [1, 5], ...] Right contains 18 more items, first extra item: [1, 7] Use -v to get more diff
+
+== /app/tests_flaky/test_kvstate.py (failed in 2 of the recorded runs)
+AssertionError: assert {'new/3': b'x...n\n\n\n', ...} == {'new/3': b'x...n\n\n\n', ...} Omitting 150 identical items, use -vv to show Differing items: {'sub/51': b'333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333...

@@ -1,0 +1,8 @@
+# Example failure output from the intermittent CI runs described in the task instruction.
+# One entry per failing test file; each is the assertion message from one failed run.
+
+== /app/tests_flaky/test_kvstate.py (failed in 7 of the recorded runs)
+AssertionError: assert {'topic/5': b'1-0'} == {'topic/0': b... b'1-10', ...} Differing items: {'topic/5': b'1-0'} != {'topic/5': b'1-14'} Right contains 5 more items: {'topic/0': b'0-13', 'topic/1': b'0-14', 'topic/2': b'0-10',... ...Full output truncated (...
+
+== /app/tests_flaky/test_metrics.py (failed in 1 of the recorded runs)
+AssertionError: 1244 timed deliveries but 1241 delivered assert (1244 - 1241) <= 2
