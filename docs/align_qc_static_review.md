@@ -57,6 +57,16 @@ as they were.
 | `check-reward-file-format.sh` ("cannot establish that grading finished before reward.json was published") | The timing check (`align_qc/reward_timing.py`) follows `tests/test.sh` step by step. Any step it cannot model before the reward write makes the result "unknown", and Python that runs shutil, tar and setpriv subprocesses cannot be modelled. Publication therefore moved into shell, where the order is provable. `test.sh` runs the whole grader as `python3 -m pytest /tests/grade_run.py`, which is one complete grading phase. Afterwards it writes `{"reward": 1.0}` or `{"reward": 0.0}` with `printf`, from the outcome `verify.record()` left in root-only `/logs/verifier` (`.passed`, `.graded`). No Python file writes `reward.json` any more. If grading did not finish, `test.sh` exits 1 without writing a reward, so the run is a verifier error and not a false 0. |
 | `verifier.execution-isolation` (2 per folder) | Kept. This rule (`align_framework/engine.py`) flags any subprocess call in a verifier `.py` file and any `pytest` or `exec` in a verifier `.sh` file. A verifier that runs the agent's tests always matches it. The isolation measures are described above. |
 
+## Task folder names (Axis 4 `task_name` criterion)
+
+The content rubric (`tb41_checks/task-implementation.toml`, `task_name`) requires a descriptive lowercase kebab-case
+slug of at most 3 words, so the `ftg-<hash>` folders were renamed. Each name puts a planted root cause in a module CI
+reports as flaky (two words) next to a second root cause (one word). For example, `replay-race-backoff` is the replay
+check-then-add race in request signing plus the uncapped decorrelated retry backoff. All 80 bug sets differ, and so
+do all 80 names. `tasks/<name>` and `docs/<name>` were renamed together, and `[task] name` is
+`terminal-bench/<name>`. `instance_id`, `hard80_task_ids.txt`, `docs/analysis.md` and `docs/_qc` keep the original
+Flaky Test Gym IDs, and `task_names.tsv` maps each new name to its original ID. Task content and grading are unchanged.
+
 ## Not covered by static QC
 
 Every edit above changes the task fingerprint, so oracle and nop evidence must be re-measured for these fingerprints.
