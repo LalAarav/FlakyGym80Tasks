@@ -30,6 +30,13 @@ as they were.
 |---|---|
 | `verifier.execution-isolation` · `tests/verify.py` | Running the agent's code is the point of the verifier, so this boundary cannot be removed. It is already isolated. `/tests` and `/logs/verifier` are made `root:root 0700`. The submission is copied to a root-owned, read-only `/work`. The visible suite is restored from an archive and checked against a SHA-256 manifest. pytest runs via `setpriv --reuid=1000 --regid=1000 --clear-groups`. Reports go to random 128-bit names in a directory the test user cannot list. Only root writes `reward.json`, and a run counts only when pytest exits 0 and reports exactly the expected test ids. |
 
+## Follow-up: report on `51a7e52` (engine 0.2.9)
+
+| Rule | Action |
+|---|---|
+| `check-canary.sh` · `tests/deps/pyproject.toml` | Canary comment added to both `deps/pyproject.toml` files in every task. `uv lock --check` still passes. |
+| `check-dockerfile-digest-platform.sh` (warning) | No change needed. The checker could not reach the registry. `python:3.12-slim@sha256:aa943ce4…` is a multi-platform OCI index (linux/amd64, linux/arm64 and others), and so is the pinned `ghcr.io/astral-sh/uv:0.12.5` digest. |
+
 ## Not covered by static QC
 
 Every edit above changes the task fingerprint, so oracle and nop evidence must be re-measured for these fingerprints.
