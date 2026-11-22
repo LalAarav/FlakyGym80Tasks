@@ -255,12 +255,14 @@ EXPECTED_VISIBLE = {
 }
 
 
-def finish(summary):
+def publish(summary):
+    """The single reward writer: called once, after grade() has returned its final result."""
     LOGS.mkdir(parents=True, exist_ok=True)
     (LOGS / "summary.json").write_text(json.dumps(summary, indent=1))
-    (LOGS / "reward.json").write_text(json.dumps({"reward": summary["reward"]}))
+    staged = LOGS / ".reward.json.tmp"
+    staged.write_text(json.dumps({"reward": float(summary["reward"])}))
+    os.replace(staged, LOGS / "reward.json")
     print(json.dumps({k: v for k, v in summary.items() if k != "hidden_log"}, indent=1))
-    sys.exit(0)
 
 
 def outcomes(path):
@@ -281,76 +283,81 @@ def as_agent(cmd, timeout):
                           capture_output=True, text=True)
 
 
-meta = json.loads(Path("/tests/policy.json").read_text())
-# Nothing the test user (uid 1000) runs may read the grader's own files or touch the reward files.
-for private in ("/tests", "/logs/verifier"):
-    os.makedirs(private, exist_ok=True)
-    os.chown(private, 0, 0)
-    os.chmod(private, 0o700)
-submitted = Path("/app/src")
-if not any(submitted.rglob("*.py")):
-    finish({"reward": 0, "reason": "no_submission"})
-violations = scan(submitted, set(meta["allowed_imports"]), meta["scoped_imports"])
-if violations:
-    finish({"reward": 0, "reason": "policy", "violations": violations})
+def grade():
+    meta = json.loads(Path("/tests/policy.json").read_text())
+    # Nothing the test user (uid 1000) runs may read the grader's own files or touch the reward files.
+    for private in ("/tests", "/logs/verifier"):
+        os.makedirs(private, exist_ok=True)
+        os.chown(private, 0, 0)
+        os.chmod(private, 0o700)
+    submitted = Path("/app/src")
+    if not any(submitted.rglob("*.py")):
+        return ({"reward": 0, "reason": "no_submission"})
+    violations = scan(submitted, set(meta["allowed_imports"]), meta["scoped_imports"])
+    if violations:
+        return ({"reward": 0, "reason": "policy", "violations": violations})
 
-work = Path("/work")
-shutil.rmtree(work, ignore_errors=True)
-work.mkdir()
-shutil.copytree(submitted, work / "src", ignore=shutil.ignore_patterns("__pycache__"))
-with tarfile.open("/tests/visible_tests.tar.gz") as tar:
-    tar.extractall(work, filter="data")
-restored = {"/app/" + p.relative_to(work).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
-            for p in (work / "tests_flaky").rglob("*") if p.is_file()}
-if restored != VISIBLE_SUITE:  # the pristine suite must be exactly the files the agent was given
-    raise SystemExit(f"visible suite archive does not match its manifest: {sorted(set(restored) ^ set(VISIBLE_SUITE))}")
-shutil.copytree("/tests/hidden", work / "grader_hidden")
-# Root-owned and read-only: the test user (uid 1000) can read and import everything but can neither
-# rewrite the tests nor make them writable again.
-subprocess.run(["chown", "-R", "0:0", str(work)], check=True)
-subprocess.run(["chmod", "-R", "a-w,a+rX", str(work)], check=True)
-# Reports go to unguessable names in a root-owned directory the test user can write into but not
-# list, so code under test cannot find (and rewrite) a report; a run also counts only if pytest
-# itself exited 0 and reported exactly the expected test ids.
-out = Path("/tmp/grade-" + secrets.token_hex(8))
-out.mkdir(mode=0o733)
-os.chmod(out, 0o733)
-env = "PYTHONDONTWRITEBYTECODE=1 "
-runs = int(meta.get("visible_runs", 10))
-
-
-def suite(target, expected, timeout, wrap=""):
-    name = secrets.token_hex(16)
-    xml, txt = out / f"{name}.xml", out / f"{name}.txt"
-    try:
-        proc = as_agent(env + f"{wrap}python -m pytest -q -p no:cacheprovider {target} "
-                        f"--junitxml={xml} > {txt} 2>&1", timeout)
-        rc = proc.returncode
-    except subprocess.TimeoutExpired:
-        rc = None
-    res = outcomes(xml)
-    bad = sorted(k for k, v in res.items() if v != "passed")
-    bad += sorted(f"{k} (not run)" for k in expected - set(res))
-    bad += sorted(f"{k} (unexpected)" for k in set(res) - expected - {"__collection__"})
-    if rc != 0 and not bad:
-        bad = [f"pytest exit status {rc}"]
-    log = txt.read_text(errors="replace")[-3000:] if txt.exists() else ""
-    return res, bad, log
+    work = Path("/work")
+    shutil.rmtree(work, ignore_errors=True)
+    work.mkdir()
+    shutil.copytree(submitted, work / "src", ignore=shutil.ignore_patterns("__pycache__"))
+    with tarfile.open("/tests/visible_tests.tar.gz") as tar:
+        tar.extractall(work, filter="data")
+    restored = {"/app/" + p.relative_to(work).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
+                for p in (work / "tests_flaky").rglob("*") if p.is_file()}
+    if restored != VISIBLE_SUITE:  # the pristine suite must be exactly the files the agent was given
+        raise SystemExit(f"visible suite archive does not match its manifest: {sorted(set(restored) ^ set(VISIBLE_SUITE))}")
+    shutil.copytree("/tests/hidden", work / "grader_hidden")
+    # Root-owned and read-only: the test user (uid 1000) can read and import everything but can neither
+    # rewrite the tests nor make them writable again.
+    subprocess.run(["chown", "-R", "0:0", str(work)], check=True)
+    subprocess.run(["chmod", "-R", "a-w,a+rX", str(work)], check=True)
+    # Reports go to unguessable names in a root-owned directory the test user can write into but not
+    # list, so code under test cannot find (and rewrite) a report; a run also counts only if pytest
+    # itself exited 0 and reported exactly the expected test ids.
+    out = Path("/tmp/grade-" + secrets.token_hex(8))
+    out.mkdir(mode=0o733)
+    os.chmod(out, 0o733)
+    env = "PYTHONDONTWRITEBYTECODE=1 "
+    runs = int(meta.get("visible_runs", 10))
 
 
-hidden, hidden_failed, hidden_log = suite("grader_hidden", EXPECTED_HIDDEN, 900)
-visible_failed = []
-for i in range(runs):
-    _, bad, _ = suite("tests_flaky", EXPECTED_VISIBLE, 240, wrap="timeout 180 ")
-    if bad:
-        visible_failed.append(i)
-reward = int(not hidden_failed and not visible_failed)
-finish({
-    "reward": reward,
-    "reason": "ok" if reward else ("hidden" if hidden_failed else "visible"),
-    "hidden_failed": hidden_failed,
-    "hidden_total": len(hidden),
-    "visible_failed_runs": len(visible_failed),
-    "visible_runs": runs,
-    "hidden_log": hidden_log if hidden_failed else "",
-})
+    def suite(target, expected, timeout, wrap=""):
+        name = secrets.token_hex(16)
+        xml, txt = out / f"{name}.xml", out / f"{name}.txt"
+        try:
+            proc = as_agent(env + f"{wrap}python -m pytest -q -p no:cacheprovider {target} "
+                            f"--junitxml={xml} > {txt} 2>&1", timeout)
+            rc = proc.returncode
+        except subprocess.TimeoutExpired:
+            rc = None
+        res = outcomes(xml)
+        bad = sorted(k for k, v in res.items() if v != "passed")
+        bad += sorted(f"{k} (not run)" for k in expected - set(res))
+        bad += sorted(f"{k} (unexpected)" for k in set(res) - expected - {"__collection__"})
+        if rc != 0 and not bad:
+            bad = [f"pytest exit status {rc}"]
+        log = txt.read_text(errors="replace")[-3000:] if txt.exists() else ""
+        return res, bad, log
+
+
+    hidden, hidden_failed, hidden_log = suite("grader_hidden", EXPECTED_HIDDEN, 900)
+    visible_failed = []
+    for i in range(runs):
+        _, bad, _ = suite("tests_flaky", EXPECTED_VISIBLE, 240, wrap="timeout 180 ")
+        if bad:
+            visible_failed.append(i)
+    reward = int(not hidden_failed and not visible_failed)
+    return ({
+        "reward": reward,
+        "reason": "ok" if reward else ("hidden" if hidden_failed else "visible"),
+        "hidden_failed": hidden_failed,
+        "hidden_total": len(hidden),
+        "visible_failed_runs": len(visible_failed),
+        "visible_runs": runs,
+        "hidden_log": hidden_log if hidden_failed else "",
+    })
+
+
+if __name__ == "__main__":
+    publish(grade())

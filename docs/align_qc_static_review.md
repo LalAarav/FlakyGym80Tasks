@@ -37,6 +37,12 @@ as they were.
 | `check-canary.sh` · `tests/deps/pyproject.toml` | Canary comment added to both `deps/pyproject.toml` files in every task. `uv lock --check` still passes. |
 | `check-dockerfile-digest-platform.sh` (warning) | No change needed. The checker could not reach the registry. `python:3.12-slim@sha256:aa943ce4…` is a multi-platform OCI index (linux/amd64, linux/arm64 and others), and so is the pinned `ghcr.io/astral-sh/uv:0.12.5` digest. |
 
+## Follow-up: reward publication (engine 0.2.9, report on `e4f15fe`)
+
+| Rule | Action |
+|---|---|
+| `check-reward-file-format.sh` ("cannot establish that grading finished before reward.json was published") | `tests/test.sh` no longer writes any reward. It only runs `exec python3 /tests/verify.py`. In `verify.py` all grading moved into `grade()`, which returns its result, and the single writer `publish(grade())` runs once at the end. It writes `summary.json` first, then stages the reward and atomically renames it to `/logs/verifier/reward.json`. If grading crashes, no reward is published, so Harbor reports a verifier error instead of a false 0. |
+
 ## Not covered by static QC
 
 Every edit above changes the task fingerprint, so oracle and nop evidence must be re-measured for these fingerprints.
