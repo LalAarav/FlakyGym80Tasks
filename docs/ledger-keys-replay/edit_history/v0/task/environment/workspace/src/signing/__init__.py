@@ -1,1 +1,0 @@
-"""signing component."""
