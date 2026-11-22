@@ -258,13 +258,14 @@ EXPECTED_VISIBLE = {
 }
 
 
-def publish(summary):
-    """The single reward writer: called once, after grade() has returned its final result."""
+def record(summary):
+    """Record the finished grade for tests/test.sh, which publishes reward.json from it. The markers live in
+    /logs/verifier, which grade() made root-only, so code under test can neither create nor remove them."""
     LOGS.mkdir(parents=True, exist_ok=True)
     (LOGS / "summary.json").write_text(json.dumps(summary, indent=1))
-    staged = LOGS / ".reward.json.tmp"
-    staged.write_text(json.dumps({"reward": float(summary["reward"])}))
-    os.replace(staged, LOGS / "reward.json")
+    if summary["reward"] == 1:
+        (LOGS / ".passed").write_text("1\n")
+    (LOGS / ".graded").write_text("1\n")
     print(json.dumps({k: v for k, v in summary.items() if k != "hidden_log"}, indent=1))
 
 
@@ -415,4 +416,4 @@ def grade():
 
 
 if __name__ == "__main__":
-    publish(grade())
+    record(grade())

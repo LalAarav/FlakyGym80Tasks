@@ -50,6 +50,13 @@ as they were.
 | `check-reward-file-format.sh` (`test.sh:6`, `:9`, `verify.py:261`) | Already fixed by the single-writer change above (commit `18aabad`). The report was run on the commit before it. |
 | `verifier.execution-isolation` · `tests/verify.py` `as_agent()` | Hardened the runner as the report's fix suggests. Code under test runs via `setpriv --reuid=1000 --regid=1000 --clear-groups --no-new-privs`. It gets a fixed minimal environment (nothing inherited from the grader), no stdin/stdout/stderr pipe to the grader, no core dumps and a 512 MiB file-size cap, in its own process group. When a run ends or times out, the process group is killed, then every remaining live uid 1000 process (including ones that called `setsid`) is killed and reaped before results are read. The run log is read with a bounded tail. Checked in Docker: detached and timed-out processes are all gone afterwards, and the reference solution still scores 1.0 while the unmodified and empty submissions score 0.0. The boundary itself stays, since running the agent's code is how the task is graded. |
 
+## Follow-up: report on `4c5f6fc` (`verify.py:267`, 44 folders)
+
+| Rule | Action |
+|---|---|
+| `check-reward-file-format.sh` ("cannot establish that grading finished before reward.json was published") | The timing check (`align_qc/reward_timing.py`) follows `tests/test.sh` step by step. Any step it cannot model before the reward write makes the result "unknown", and Python that runs shutil, tar and setpriv subprocesses cannot be modelled. Publication therefore moved into shell, where the order is provable. `test.sh` runs the whole grader as `python3 -m pytest /tests/grade_run.py`, which is one complete grading phase. Afterwards it writes `{"reward": 1.0}` or `{"reward": 0.0}` with `printf`, from the outcome `verify.record()` left in root-only `/logs/verifier` (`.passed`, `.graded`). No Python file writes `reward.json` any more. If grading did not finish, `test.sh` exits 1 without writing a reward, so the run is a verifier error and not a false 0. |
+| `verifier.execution-isolation` (2 per folder) | Kept. This rule (`align_framework/engine.py`) flags any subprocess call in a verifier `.py` file and any `pytest` or `exec` in a verifier `.sh` file. A verifier that runs the agent's tests always matches it. The isolation measures are described above. |
+
 ## Not covered by static QC
 
 Every edit above changes the task fingerprint, so oracle and nop evidence must be re-measured for these fingerprints.
