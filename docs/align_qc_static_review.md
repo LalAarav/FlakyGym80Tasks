@@ -43,6 +43,13 @@ as they were.
 |---|---|
 | `check-reward-file-format.sh` ("cannot establish that grading finished before reward.json was published") | `tests/test.sh` no longer writes any reward. It only runs `exec python3 /tests/verify.py`. In `verify.py` all grading moved into `grade()`, which returns its result, and the single writer `publish(grade())` runs once at the end. It writes `summary.json` first, then stages the reward and atomically renames it to `/logs/verifier/reward.json`. If grading crashes, no reward is published, so Harbor reports a verifier error instead of a false 0. |
 
+## Follow-up: report on `e4f15fe` (engine 0.2.9, 0 errors)
+
+| Rule | Action |
+|---|---|
+| `check-reward-file-format.sh` (`test.sh:6`, `:9`, `verify.py:261`) | Already fixed by the single-writer change above (commit `18aabad`). The report was run on the commit before it. |
+| `verifier.execution-isolation` · `tests/verify.py` `as_agent()` | Hardened the runner as the report's fix suggests. Code under test runs via `setpriv --reuid=1000 --regid=1000 --clear-groups --no-new-privs`. It gets a fixed minimal environment (nothing inherited from the grader), no stdin/stdout/stderr pipe to the grader, no core dumps and a 512 MiB file-size cap, in its own process group. When a run ends or times out, the process group is killed, then every remaining live uid 1000 process (including ones that called `setsid`) is killed and reaped before results are read. The run log is read with a bounded tail. Checked in Docker: detached and timed-out processes are all gone afterwards, and the reference solution still scores 1.0 while the unmodified and empty submissions score 0.0. The boundary itself stays, since running the agent's code is how the task is graded. |
+
 ## Not covered by static QC
 
 Every edit above changes the task fingerprint, so oracle and nop evidence must be re-measured for these fingerprints.

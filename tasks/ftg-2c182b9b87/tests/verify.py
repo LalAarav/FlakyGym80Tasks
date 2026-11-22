@@ -6,11 +6,14 @@ with the verifier, so edited tests, planted conftest.py files or stashed state n
 import hashlib
 import json
 import os
+import resource
 import secrets
 import shutil
+import signal
 import subprocess
 import sys
 import tarfile
+import time
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -277,10 +280,64 @@ def outcomes(path):
     return res or {"__collection__": "error"}
 
 
+# Code under test runs as uid 1000 with no new privileges, a fixed minimal environment, no core dumps,
+# a cap on file size, no stdin/stdout/stderr channel to the grader, and its own process group. When a
+# run ends or times out, every process left over from the test user is killed before the grader reads
+# anything, so nothing the submission started can still be running while results are scored.
+AGENT_ENV = {"PATH": "/usr/local/bin:/usr/bin:/bin", "HOME": "/home/agent", "LANG": "C.UTF-8",
+             "PYTHONDONTWRITEBYTECODE": "1", "PYTHONUNBUFFERED": "1"}
+AGENT_LIMITS = ((resource.RLIMIT_CORE, 0), (resource.RLIMIT_FSIZE, 512 * 1024 * 1024))
+
+
+def _agent_limits():
+    for limit, cap in AGENT_LIMITS:
+        resource.setrlimit(limit, (cap, cap))
+
+
+def _reap_agent_processes():
+    for _ in range(50):
+        found = False
+        for p in Path("/proc").iterdir():
+            if not p.name.isdigit():
+                continue
+            try:
+                # A killed process stays listed as a zombie until reaped; only live ones count.
+                if p.stat().st_uid == 1000 and (p / "stat").read_text().rsplit(")", 1)[1].split()[0] != "Z":
+                    os.kill(int(p.name), signal.SIGKILL)
+                    found = True
+            except (FileNotFoundError, ProcessLookupError, PermissionError, IndexError):
+                pass
+        try:  # reap orphans re-parented to the grader (when it is PID 1)
+            while os.waitpid(-1, os.WNOHANG)[0]:
+                pass
+        except ChildProcessError:
+            pass
+        if not found:
+            return
+        time.sleep(0.1)
+
+
 def as_agent(cmd, timeout):
-    return subprocess.run(["setpriv", "--reuid=1000", "--regid=1000", "--clear-groups",
-                           "bash", "-c", cmd], cwd="/work", timeout=timeout,
-                          capture_output=True, text=True)
+    proc = subprocess.Popen(["setpriv", "--reuid=1000", "--regid=1000", "--clear-groups", "--no-new-privs",
+                             "bash", "-c", cmd], cwd="/work", env=AGENT_ENV, stdin=subprocess.DEVNULL,
+                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                            start_new_session=True, preexec_fn=_agent_limits)
+    try:
+        return proc.wait(timeout=timeout)
+    finally:
+        try:
+            os.killpg(proc.pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
+        proc.wait()
+        _reap_agent_processes()
+
+
+def tail(path, size=3000):
+    with open(path, "rb") as f:
+        f.seek(0, os.SEEK_END)
+        f.seek(max(0, f.tell() - size))
+        return f.read().decode(errors="replace")
 
 
 def grade():
@@ -318,7 +375,6 @@ def grade():
     out = Path("/tmp/grade-" + secrets.token_hex(8))
     out.mkdir(mode=0o733)
     os.chmod(out, 0o733)
-    env = "PYTHONDONTWRITEBYTECODE=1 "
     runs = int(meta.get("visible_runs", 10))
 
 
@@ -326,9 +382,8 @@ def grade():
         name = secrets.token_hex(16)
         xml, txt = out / f"{name}.xml", out / f"{name}.txt"
         try:
-            proc = as_agent(env + f"{wrap}python -m pytest -q -p no:cacheprovider {target} "
+            rc = as_agent(f"{wrap}python -m pytest -q -p no:cacheprovider {target} "
                             f"--junitxml={xml} > {txt} 2>&1", timeout)
-            rc = proc.returncode
         except subprocess.TimeoutExpired:
             rc = None
         res = outcomes(xml)
@@ -337,7 +392,7 @@ def grade():
         bad += sorted(f"{k} (unexpected)" for k in set(res) - expected - {"__collection__"})
         if rc != 0 and not bad:
             bad = [f"pytest exit status {rc}"]
-        log = txt.read_text(errors="replace")[-3000:] if txt.exists() else ""
+        log = tail(txt) if txt.is_file() else ""
         return res, bad, log
 
 
