@@ -67,6 +67,25 @@ do all 80 names. `tasks/<name>` and `docs/<name>` were renamed together, and `[t
 `terminal-bench/<name>`. `instance_id`, `hard80_task_ids.txt`, `docs/analysis.md` and `docs/_qc` keep the original
 Flaky Test Gym IDs, and `task_names.tsv` maps each new name to its original ID. Task content and grading are unchanged.
 
+## Axis 4 content rubric: pre-review against `tb41_checks/task-implementation.toml`
+
+These changes were made before Axis 4 runs, to address the rubric criteria the tasks would otherwise fail:
+
+| Criterion | Change |
+|---|---|
+| `ctrf_reporting` | The verifier writes `/logs/verifier/ctrf.json` as root. It has one entry for the static policy, one for each hidden check (164) and one for each of the 10 visible-suite runs. |
+| `verifier_execution_isolation` | Already satisfied: unprivileged child, root-only `/logs/verifier` before any agent code runs, root decides the reward, output goes to temp files, and process groups are killed. The reward-tampering regression in `docs/tamper_regression/` reproduces a forging attempt, and every write is refused. |
+| `difficulty_explanation_quality` | Rewritten to describe the task, not the agent. Adds whether the data is synthetic and who does this work in practice, and drops a stale reference to an instruction heading. |
+| `verification_explanation_quality` | Now matches the verifier: the `test.sh` flow, the three stages, binary reward, isolation, and the CTRF and summary outputs. |
+| `environment_hygiene` | The README states why the agent image includes pytest: running the visible suite is part of the starting state. |
+| `no_extraneous_files` | `performance.toml` (rollout statistics, nothing in the task reads it) moved from `tasks/<name>/` to `docs/<name>/`, which is where Align's evidence packs keep it. |
+| `task_name` | See the renaming section above. |
+
+Kept on purpose: `[metadata]` still has `name`, `instance_id`, `task`, `source_repo`, `language`,
+`programming_language` and `prompt_creation_time`, which Align's Tencent v4 delivery checks
+(`align_qc/tencent_v4.py`) require. `[metadata.align]` is required by framework adoption. The
+`task_toml_schema` criterion lists a narrower set, so a reviewer may raise these fields.
+
 ## Not covered by static QC
 
 Every edit above changes the task fingerprint, so oracle and nop evidence must be re-measured for these fingerprints.

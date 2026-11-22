@@ -21,6 +21,7 @@ sys.path.insert(0, "/tests")
 from policy import scan  # noqa: E402
 
 LOGS = Path("/logs/verifier")
+STARTED_MS = int(time.time() * 1000)
 # The visible suite as shipped to the agent under /app: path -> sha256.
 VISIBLE_SUITE = {
     '/app/tests_flaky/server.py': 'a9de2a4dd70f6068de3104c329fd42a641fd7cb7438082a9b29a1952909bb2ef',
@@ -262,6 +263,14 @@ def record(summary):
     """Record the finished grade for tests/test.sh, which publishes reward.json from it. The markers live in
     /logs/verifier, which grade() made root-only, so code under test can neither create nor remove them."""
     LOGS.mkdir(parents=True, exist_ok=True)
+    checks = summary.pop("checks", [])
+    tests = [{"name": name, "status": status, "duration": duration} for name, status, duration in checks]
+    counts = {status: sum(t["status"] == status for t in tests) for status in ("passed", "failed", "skipped")}
+    (LOGS / "ctrf.json").write_text(json.dumps({"results": {
+        "tool": {"name": "pytest"},
+        "summary": {"tests": len(tests), **counts, "pending": 0, "other": 0,
+                    "start": STARTED_MS, "stop": int(time.time() * 1000)},
+        "tests": tests}}, indent=1))
     (LOGS / "summary.json").write_text(json.dumps(summary, indent=1))
     if summary["reward"] == 1:
         (LOGS / ".passed").write_text("1\n")
@@ -350,10 +359,11 @@ def grade():
         os.chmod(private, 0o700)
     submitted = Path("/app/src")
     if not any(submitted.rglob("*.py")):
-        return ({"reward": 0, "reason": "no_submission"})
+        return ({"reward": 0, "reason": "no_submission", "checks": [("submission_present", "failed", 0)]})
     violations = scan(submitted, set(meta["allowed_imports"]), meta["scoped_imports"])
+    checks = [("static_policy", "failed" if violations else "passed", 0)]
     if violations:
-        return ({"reward": 0, "reason": "policy", "violations": violations})
+        return ({"reward": 0, "reason": "policy", "violations": violations, "checks": checks})
 
     work = Path("/work")
     shutil.rmtree(work, ignore_errors=True)
@@ -398,9 +408,15 @@ def grade():
 
 
     hidden, hidden_failed, hidden_log = suite("grader_hidden", EXPECTED_HIDDEN, 900)
+    for test_id in sorted(EXPECTED_HIDDEN | (set(hidden) - {"__collection__"})):
+        status = hidden.get(test_id, "not run")
+        checks.append((test_id, status if status in ("passed", "skipped") else "failed", 0))
     visible_failed = []
     for i in range(runs):
+        began = time.monotonic()
         _, bad, _ = suite("tests_flaky", EXPECTED_VISIBLE, 240, wrap="timeout 180 ")
+        checks.append((f"tests_flaky run {i + 1} of {runs}", "failed" if bad else "passed",
+                       int((time.monotonic() - began) * 1000)))
         if bad:
             visible_failed.append(i)
     reward = int(not hidden_failed and not visible_failed)
@@ -412,6 +428,7 @@ def grade():
         "visible_failed_runs": len(visible_failed),
         "visible_runs": runs,
         "hidden_log": hidden_log if hidden_failed else "",
+        "checks": checks,
     })
 
 
